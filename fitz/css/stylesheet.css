@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.thankyou {
+  height: 100%; }
+  .thankyou .tysearch {
+    width: 100%;
+    margin-top: 30px; }
+    .thankyou .tysearch img {
+      width: 100%; }
