@@ -27,13 +27,38 @@ body, html {
 .introduction {
     /*height: 100%;*/
     /*width:100%;*/
-    background-color:rgb(123,122,136);
+    background: url('../kunesh-gansen/img/tweed.png');
+    background-attachment: fixed;
+}
+
+.introduction h1 {
+    color:#dddddd;
+    text-align: center;
+    font-family: 'Denk One', sans-serif;
+    font-size: 50px;
+    padding-top: 60px;
+}
+
+.introduction img {
+    height:200px;
+    position:relative;
+}
+
+.introduction .jason_kunesh_img {
+    top:50px;
+    left:0;
+}
+
+.introduction .chris_gansen_img {
+    top:50px;
+    right:0;
 }
 
 /*DESCRIPTION*/
 
 .description {
     background-color: rgb(147,139,137);
+    /*background-attachment: fixed;*/
 }
 
 /*QUOTES*/
@@ -46,6 +71,7 @@ body, html {
 
 .forms {
     background-color: rgb(186,109,53);
+    background-attachment: fixed;
 }
 
 /*CONTACT*/
