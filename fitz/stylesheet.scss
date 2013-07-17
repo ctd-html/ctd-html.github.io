@@ -2,18 +2,88 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 
+html, body {
+    height: 100%;
+}
+
+.slide {
+    height: 100%;
+}
+// Nav
+
+nav {
+    background-color: #313131;
+    color: #bbb;
+    line-height: 27px;
+    font-size: 13px;
+    ul {
+        display: inline-block;
+        text-align: center;
+        li {
+            display: inline-block;
+            width: 65px;
+            font-weight: bold;
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
 
 // Section 1 - Thank You
 
 .thankyou {
-    height: 100%;
     .tysearch {
         width: 100%;
-        margin-top: 30px;
+
         img {
             width: 100%;
         }
     }
+    background-color: white;
+}
+
+// Section 2 - Google Plus
+
+.googleplus {
+    background: #1851CE;
+}
+
+// Section 3 - Search
+
+.search {
+    background: #C61800;
+}
+
+// Section 4 - Images
+
+.images {
+    background: #FFCF00;
+}
+
+// Section 5 - Maps
+
+.maps {
+    background: #1851CE;
+}
+
+// Section 6 - News
+
+.news {
+    background: #31B639;
+}
+
+// Section 7 - More
+
+.more {
+    background: #C61800;
+}
+
+// Section 8 - About
+
+.about {
+    background: blanchedalmond;
 }
