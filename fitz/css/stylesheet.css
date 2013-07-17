@@ -26,16 +26,30 @@ nav {
 
 .thankyou {
   background-color: white; }
-  .thankyou .tysearch {
-    width: 100%; }
-    .thankyou .tysearch img {
+  .thankyou .mainsearch {
+    width: 100%;
+    margin-top: 162px; }
+    .thankyou .mainsearch img {
       width: 100%; }
 
 .googleplus {
+  border-top: 1px solid black;
   background: #1851CE; }
+  .googleplus .googleplusthanks {
+    width: 100%;
+    background-color: white;
+    padding-bottom: 30px; }
+    .googleplus .googleplusthanks img {
+      width: 100%; }
 
 .search {
   background: #C61800; }
+  .search .tysearch {
+    width: 100%;
+    background-color: white;
+    padding-bottom: 30px; }
+    .search .tysearch img {
+      width: 100%; }
 
 .images {
   background: #FFCF00; }
@@ -48,6 +62,12 @@ nav {
 
 .more {
   background: #C61800; }
+
+form {
+  line-height: 1.5em; }
+  form fieldset {
+    padding-left: 20px;
+    padding-bottom: 20px; }
 
 .about {
   background: blanchedalmond; }

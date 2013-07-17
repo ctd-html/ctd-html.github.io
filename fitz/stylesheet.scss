@@ -12,6 +12,7 @@ html, body {
 .slide {
     height: 100%;
 }
+
 // Nav
 
 nav {
@@ -36,9 +37,9 @@ nav {
 // Section 1 - Thank You
 
 .thankyou {
-    .tysearch {
+    .mainsearch {
         width: 100%;
-
+        margin-top: 162px;
         img {
             width: 100%;
         }
@@ -49,13 +50,30 @@ nav {
 // Section 2 - Google Plus
 
 .googleplus {
+    border-top: 1px solid black;
     background: #1851CE;
+    .googleplusthanks {
+        width: 100%;
+        background-color: white;
+        padding-bottom: 30px;
+        img {
+            width: 100%;
+        }
+    }
 }
 
 // Section 3 - Search
 
 .search {
     background: #C61800;
+    .tysearch {
+        width: 100%;
+        background-color: white;
+        padding-bottom: 30px;
+        img {
+            width: 100%;
+        }
+    }
 }
 
 // Section 4 - Images
@@ -80,6 +98,14 @@ nav {
 
 .more {
     background: #C61800;
+}
+
+form {
+    line-height: 1.5em;
+    fieldset {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 // Section 8 - About
