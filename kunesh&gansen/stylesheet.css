@@ -1,0 +1,57 @@
+/*GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    /*background-color: blue;*/
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.parameter {
+    height: 100%;
+    width:1024px;
+    margin:0 auto;
+    /*border:1px solid black;*/
+}
+
+.introduction, .description, .quotes, .forms, .contact {
+    min-height: 100%;
+    width:100%;
+}
+
+/*INTRODUCTION*/
+
+.introduction {
+    /*height: 100%;*/
+    /*width:100%;*/
+    background-color:rgb(123,122,136);
+}
+
+/*DESCRIPTION*/
+
+.description {
+    background-color: rgb(147,139,137);
+}
+
+/*QUOTES*/
+
+.quotes {
+    background-color: rgb(229,128,34);
+}
+
+/*FORMS*/
+
+.forms {
+    background-color: rgb(186,109,53);
+}
+
+/*CONTACT*/
+
+.contact {
+    background-color: rgb(38,54,53);
+}
+
+/*FOOTER*/
