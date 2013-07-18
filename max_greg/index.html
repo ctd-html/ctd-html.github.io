@@ -3,19 +3,22 @@
 <head>
     <title>Thanks Max &amp; Greg!</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Autour+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
     <script src="script.js" type="text/javascript"></script>
 </head>
 <body>
     <section class="container thanks" id="thanks">
         <h1>Thank You</h1>
-        <script>swapfaces();</script>
+        <img src="maxsface.jpg" class="maxsface" alt="Max's face">
+        <img src="gregsface.jpg" class="gregsface" alt="Greg's face">
         <div class="name maxsname">Max Temkin</div>
         <div class="name gregsname">Greg Wohlwend</div>
     </section>
     <section class="descriptions">
         <div class="maxdescription">
             <a href="http://maxistentialism.com/">Max Temkin</a>
-            <p class="maxparagraph">Max Temkin is a renown board game designer and website developer. He has worked on several popular board games, including the acclaimed <a href="cardsagainsthumanity.com">Cards Against Humanity</a>. He also created his own game, known as <a href="http://maxistentialism.com/werewolf/" class="werewolf">Werewolf</a></p>
+            <p class="maxparagraph">Max Temkin is a renown board game designer and website developer. He has worked on several popular board games, including the acclaimed <a href="cardsagainsthumanity.com">Cards Against Humanity</a>. He also created his own game, known as <a href="http://maxistentialism.com/werewolf/" class="werewolf">Werewolf</a>.</p>
         </div>
         <div class="gregdescription">
             <a href="http://aeiowu">Greg Wohlwend</a>
@@ -36,15 +39,21 @@
                 <input type="checkbox" name="recipients" value="greg"><span class="radiobutton">Greg Wohlwend</span><br>
             </fieldset>
             <br>
-            <textarea name="message" cols="20" rows="4" placeholder="Type message here"></textarea><br>
+            <textarea name="message" cols="48" rows="10" placeholder="Type message here"></textarea><br>
             <button type="submit">Submit</button>
         </form>
     </section>
     <section class="quotes">
-        Blah
+        <h2 class="wwt">What we think</h2>
+        <blockquote class="top-quote qs">The speakers were cool, it was nice to be able to meet the guy who made ridiculous fishing and the guy who made cards against humanity.<br>- Ethan</blockquote>
+        <blockquote class="left-quote qs">The speakers today where really cool. They had lots of creativity and good advice for web designers. All the websites they created look really cool.<br>- Vera</blockquote>
+        <blockquote class="right-quote qs">The speakers today were awesome.<br>- Chris</blockquote>
     </section>
     <footer>
-
+        This website was created by <a href="http://aziznassar.github.io">Aziz</a> and <a href="http://NiharS.github.io">Nihar</a> to express the class's gratitude to the speakers Max Temkin and Greg Wohlwend.
     </footer>
+    // <script>window.onload=new Function('setInterval("swapfaces()",3000)');
+
+    // </script>
 </body>
 </html>
