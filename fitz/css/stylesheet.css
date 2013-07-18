@@ -155,16 +155,33 @@ nav {
                 font-weight: bold;
                 color: #12c;
                 line-height: 1.2em; }
-<<<<<<< HEAD
   .tysearchcontainer .imagescontainer {
     background: #FFCF00;
-    height: 100%; }
+    height: 100%;
+    text-align: center;
+    margin: auto; }
+    .tysearchcontainer .imagescontainer figure {
+      margin-bottom: 0;
+      height: 1px; }
     .tysearchcontainer .imagescontainer .images {
       margin: 0 30px; }
     .tysearchcontainer .imagescontainer .imagesearch {
       width: 100%; }
       .tysearchcontainer .imagescontainer .imagesearch img {
         width: 100%; }
+    .tysearchcontainer .imagescontainer .imagespage {
+      background-color: white;
+      height: 100%;
+      padding: 0px;
+      margin-top: 0; }
+    .tysearchcontainer .imagescontainer .labcoat, .tysearchcontainer .imagescontainer .brianhand, .tysearchcontainer .imagescontainer .brianclock {
+      display: inline-block; }
+    .tysearchcontainer .imagescontainer .labcoat img {
+      height: 150px; }
+    .tysearchcontainer .imagescontainer .brianhand img {
+      height: 200px; }
+    .tysearchcontainer .imagescontainer .brianclock img {
+      height: 150px; }
   .tysearchcontainer .mapscontainer {
     background: #1851CE;
     height: 100%; }
@@ -180,7 +197,9 @@ nav {
     border-bottom: 1px solid black;
     height: 100%; }
     .tysearchcontainer .morecontainer .more {
-      margin: 0 30px; }
+      margin: 0 30px;
+      background: #C61800;
+      border-bottom: 1px solid black; }
     .tysearchcontainer .morecontainer form {
       line-height: 1.5em; }
       .tysearchcontainer .morecontainer form fieldset {
@@ -188,67 +207,6 @@ nav {
         padding-bottom: 20px; }
   .tysearchcontainer .about {
     background: white;
-=======
-
-.imagescontainer {
-  background: #FFCF00;
-  height: 100%;
-  text-align: center;
-  margin: auto; }
-  .imagescontainer figure {
-    margin-bottom: 0;
-    height: 1px; }
-  .imagescontainer .images {
-    margin: 0 30px; }
-  .imagescontainer .imagesearch {
-    width: 100%; }
-    .imagescontainer .imagesearch img {
-      width: 100%; }
-  .imagescontainer .imagespage {
-    background-color: white;
-    height: 100%;
-    padding: 0px;
-    margin-top: 0; }
-  .imagescontainer .labcoat, .imagescontainer .brianhand, .imagescontainer .brianclock {
-    display: inline-block; }
-  .imagescontainer .labcoat img {
-    height: 150px; }
-  .imagescontainer .brianhand img {
-    height: 200px; }
-  .imagescontainer .brianclock img {
-    height: 150px; }
-
-.mapscontainer {
-  background: #1851CE;
-  height: 100%; }
-  .mapscontainer .maps {
-    margin: 0 30px; }
-
-.newscontainer {
-  background: #31B639;
-  height: 100%; }
-  .newscontainer .news {
-    margin: 0 30px; }
-
-.morecontainer {
-  background-color: #C61800;
-  height: 100%; }
-  .morecontainer .more {
-    margin: 0 30px;
-    background: #C61800;
-    border-bottom: 1px solid black; }
-  .morecontainer form {
-    line-height: 1.5em; }
-    .morecontainer form fieldset {
-      padding-left: 20px;
-      padding-bottom: 20px; }
-
-.about {
-  background: white;
-  height: 100%;
-  width: 100%; }
-  .about .container {
->>>>>>> 50fdc8e6d23c47e2a8d7dc053959fe5abfb63f22
     height: 100%;
     width: 100%; }
     .tysearchcontainer .about .container {
