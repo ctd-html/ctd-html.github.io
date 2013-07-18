@@ -117,15 +117,23 @@ header {
     margin: 0 auto; }
     .contact form fieldset {
       padding: 10px;
-      margin: 20px; }
+      margin: 20px;
+      border: none; }
+    .contact form input {
+      padding: 5px;
+      display: block;
+      margin: 0 auto; }
     .contact form button {
       display: block;
-      margin: 5px auto;
+      margin: 0 auto;
       padding: 10px;
       font-size: 16px; }
     .contact form legend {
       font-size: 30px;
       padding: 20px; }
+    .contact form textarea {
+      padding: 10px;
+      margin: 20px; }
   .contact h2 {
     background: #c0d860; }
 
@@ -148,7 +156,9 @@ header, .kickstarter, .contact {
 footer {
   max-width: 940px;
   margin: 0 auto;
-  height: 70px; }
+  height: 90px; }
+  footer h5 {
+    font-size: 16px; }
   footer div {
     display: inline-block;
     margin: 15px;

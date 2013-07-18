@@ -155,16 +155,28 @@ header {
         fieldset {
         padding: 10px;
         margin: 20px;
+        border:none;
         }
+
+        input {
+            padding: 5px;
+            display: block;
+            margin: 0 auto;
+        }
+
         button {
             display: block;
-            margin: 5px auto;
+            margin: 0 auto;
             padding:10px;
             font-size: 16px;
         }
         legend {
             font-size: 30px;
             padding: 20px;
+        }
+        textarea {
+            padding: 10px;
+            margin: 20px;
         }
     }
 
@@ -198,7 +210,11 @@ header , .kickstarter , .contact {
 footer {
     max-width:940px;
     margin: 0 auto;
-    height: 70px;
+    height: 90px;
+    h5 {
+        font-size: 16px;
+    }
+
     div {
         display: inline-block;
         margin: 15px;
