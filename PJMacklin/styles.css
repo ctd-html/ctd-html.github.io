@@ -6,6 +6,10 @@
   font-weight: 300;
   color: #fefdfd; }
 
+body {
+  background: url(bgimage.png);
+  background-position: fixed; }
+
 .slide {
   width: 100%;
   height: 100%;
@@ -28,7 +32,8 @@ a:hover {
 
 .title {
   text-align: center;
-  background: #44454f; }
+  background: #44454f;
+  opacity: .85; }
   .title h1 {
     color: #fefdfd;
     z-index: 10;
@@ -59,7 +64,8 @@ a:hover {
 
 .about {
   text-align: center;
-  background: #eb684a; }
+  background: #eb684a;
+  opacity: .8; }
   .about img {
     width: 17.25%;
     height: 100px;
@@ -90,7 +96,8 @@ a:hover {
 
 .contact {
   text-align: center;
-  background: #e9a353; }
+  background: #e9a353;
+  opacity: .8; }
   .contact form {
     padding-top: 5%;
     display: inline-block;

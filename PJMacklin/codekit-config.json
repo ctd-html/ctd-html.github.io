@@ -42,6 +42,17 @@
       "initialSize" : 271186,
       "fileType" : 8192
     },
+    "\/bgimage.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bgimage.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bgimage.png",
+      "initialSize" : 9169,
+      "fileType" : 8192
+    },
     "\/project4.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
