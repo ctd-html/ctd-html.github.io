@@ -85,6 +85,7 @@ nav {
         right: 0;
         top: 0; }
 
+<<<<<<< HEAD
 .tysearchcontainer {
   height: 100%;
   background-color: #C61800; }
@@ -99,6 +100,27 @@ nav {
     .tysearchcontainer .search .searchbigdiv {
       margin-left: 140px;
       color: #222;
+=======
+.search {
+  background: #C61800; }
+  .search .tysearch {
+    width: 100%;
+    background-color: white;
+    padding-bottom: 30px; }
+    .search .tysearch img {
+      width: 100%; }
+  .search .searchbigdiv {
+    margin-left: 10%;
+    color: #222;
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    height: 80%;
+    padding-top: 6px;
+    width: 512px; }
+    .search .searchbigdiv ol {
+      color: #222222;
+>>>>>>> 227f404dcca60e958f9b52608e4841465ecbe834
       display: block;
       font-size: 16px;
       font-weight: normal;
@@ -173,11 +195,17 @@ nav {
   .mapscontainer .maps {
     margin: 0 30px; }
 
+<<<<<<< HEAD
 .newscontainer {
   background: #31B639;
   height: 100%; }
   .newscontainer .news {
     margin: 0 30px; }
+=======
+.more {
+  background: #C61800;
+  border-bottom: 1px solid black; }
+>>>>>>> 227f404dcca60e958f9b52608e4841465ecbe834
 
 .morecontainer {
   background-color: #C61800;
@@ -191,4 +219,41 @@ nav {
       padding-bottom: 20px; }
 
 .about {
-  background: blanchedalmond; }
+  background: white;
+  height: 100%;
+  width: 100%; }
+  .about .container {
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    padding-bottom: 0; }
+    .about .container .column {
+      width: 16%;
+      vertical-align: top;
+      display: inline-block;
+      height: 100%;
+      padding: 1.1%;
+      border-left: 1px solid black;
+      padding-bottom: 0; }
+    .about .container .chris {
+      width: 10%;
+      background: #1851CE; }
+      .about .container .chris h3 {
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        margin-top: 80px; }
+    .about .container .chrisimg {
+      background: #C61800; }
+    .about .container .chrisdesc {
+      background: #FFCF00; }
+    .about .container .ethandesc {
+      background: #1851CE; }
+    .about .container .ethanimg {
+      background: #31B639; }
+    .about .container .ethan {
+      width: 10%;
+      background: #C61800; }
+      .about .container .ethan h3 {
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        margin-top: 120px; }

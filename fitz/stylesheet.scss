@@ -48,6 +48,7 @@ nav {
 }
 
 // Section 2 - Google Plus
+
 .googlepluscontainer{
     height: 100%;
     background: #1851CE;
@@ -134,9 +135,24 @@ nav {
             }
         }
 
+<<<<<<< HEAD
         .searchbigdiv {
             margin-left: 140px;
             color: #222;
+=======
+    .searchbigdiv {
+        margin-left: 10%;
+        color: #222;
+        display: block;
+        font-size: 16px;
+        font-weight: normal;
+        height: 80%;
+        padding-top: 6px;
+        width: 512px;
+
+        ol {
+            color: rgb(34,34,34);
+>>>>>>> 227f404dcca60e958f9b52608e4841465ecbe834
             display: block;
             font-size: 16px;
             font-weight: normal;
@@ -235,6 +251,7 @@ nav {
     }
 }
 // Section 7 - More
+<<<<<<< HEAD
 .morecontainer {
     background-color: #C61800;
     height: 100%;
@@ -247,11 +264,71 @@ nav {
             padding-left: 20px;
             padding-bottom: 20px;
         }
+=======
+
+.more {
+    background: #C61800;
+    border-bottom: 1px solid black;
+}
+
+form {
+    line-height: 1.5em;
+    fieldset {
+        padding-left: 20px;
+        padding-bottom: 20px;
+>>>>>>> 227f404dcca60e958f9b52608e4841465ecbe834
     }
 }
 
 // Section 8 - About
 
 .about {
-    background: blanchedalmond;
+    background: white;
+    height: 100%;
+    width: 100%;
+    .container {
+        height: 100%;
+        width: 100%;
+        vertical-align: top;
+        padding-bottom: 0;
+        .column {
+            width: 16%;
+            vertical-align: top;
+            display: inline-block;
+            height: 100%;
+            padding: 1.1%;
+            border-left: 1px solid black;
+            padding-bottom: 0;
+        }
+        .chris {
+            width: 10%;
+            background: #1851CE;
+            h3 {
+                transform: rotate(-90deg);
+                -webkit-transform: rotate(-90deg);
+                margin-top: 80px;
+            }
+        }
+        .chrisimg {
+            background: #C61800;
+        }
+        .chrisdesc {
+            background: #FFCF00;
+        }
+        .ethandesc {
+            background: #1851CE;
+        }
+        .ethanimg {
+            background: #31B639;
+        }
+        .ethan {
+            width: 10%;
+            background: #C61800;
+            h3 {
+                transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                margin-top: 120px;
+            }
+        }
+    }
 }
