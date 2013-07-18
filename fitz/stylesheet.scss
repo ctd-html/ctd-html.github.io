@@ -80,6 +80,74 @@ nav {
             width: 100%;
         }
     }
+    
+    .searchbigdiv {
+        margin-left: 140px;
+        color: #222;
+        display: block;
+        font-size: 16px;
+        font-weight: normal;
+        height: 80%;
+        padding-top: 6px;
+        width: 512px;
+
+        ol {
+            color: rgb(34,34,34);
+            display: block;
+            font-size: 16px;
+            font-weight: normal;
+            height: 80%;
+            list-style-type: decimal;
+            margin: 0;
+            padding: 0;
+            width: 512px;
+            li {
+                display: list-item;
+                font-size: 13px;
+                font-weight: normal;
+                height: 60px;
+                line-height: 15px;
+                list-style-image: none;
+                list-style-position: outside;
+                list-style-type: none;
+                margin-bottom: 23px;
+                padding: 0;
+                text-align: left;
+                width: 512px;
+                div {
+                    display: block;
+                    font-size: 13px;
+                    font-weight: normal;
+                    height: 60px;
+                    line-height: 15px;
+                    position: relative;
+                    width: 512px;
+                    h3 {
+                        display: block;
+                        font-size: 16px;
+                        height: 19px;
+                        font-weight: normal;
+                        margin: 0;
+                        overflow-x: hidden;
+                        overflow-y: hidden;
+                        padding: 0;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        a {
+                            display: inline;
+                            height: auto;
+                            width: auto;
+                            white-space: nowrap;
+                            font-size: 16px;
+                            font-weight: bold;
+                            color: #12c;
+                            line-height: 1.2em;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 // Section 4 - Images
