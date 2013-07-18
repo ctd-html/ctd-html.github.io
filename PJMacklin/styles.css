@@ -7,8 +7,7 @@
   color: #fefdfd; }
 
 body {
-  background: url(bgimage.png);
-  background-position: fixed; }
+  background: url(bgimage.png) 0 0; }
 
 .slide {
   width: 100%;

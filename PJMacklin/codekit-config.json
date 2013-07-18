@@ -2,6 +2,17 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8316",
   "files" : {
+    "\/project2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/project2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/project2.jpg",
+      "initialSize" : 45528,
+      "fileType" : 4096
+    },
     "\/styles.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -11,15 +22,24 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/gray.png" : {
+    "\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/gray.png",
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/pjmacklinpic.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/pjmacklinpic.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/gray.png",
-      "initialSize" : 6406,
+      "outputAbbreviatedPath" : "\/pjmacklinpic.png",
+      "initialSize" : 271186,
       "fileType" : 8192
     },
     "\/bgimage.png" : {
@@ -31,6 +51,39 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/bgimage.png",
       "initialSize" : 9169,
+      "fileType" : 8192
+    },
+    "\/project4.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/project4.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/project4.jpg",
+      "initialSize" : 122661,
+      "fileType" : 4096
+    },
+    "\/project1.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/project1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/project1.jpg",
+      "initialSize" : 245786,
+      "fileType" : 4096
+    },
+    "\/gray.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/gray.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/gray.png",
+      "initialSize" : 6406,
       "fileType" : 8192
     },
     "\/styles.scss" : {
@@ -56,25 +109,38 @@
       "initialSize" : 67148,
       "fileType" : 4096
     },
-    "\/index.html" : {
+    "\/mohammed.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/pjmacklinpic.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/pjmacklinpic.png",
+      "inputAbbreviatedPath" : "\/mohammed.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/pjmacklinpic.png",
-      "initialSize" : 271186,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/mohammed.jpg",
+      "initialSize" : 463502,
+      "fileType" : 4096
+    },
+    "\/project3.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/project3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/project3.jpg",
+      "initialSize" : 131096,
+      "fileType" : 4096
+    },
+    "\/project5.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/project5.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/project5.jpg",
+      "initialSize" : 184768,
+      "fileType" : 4096
     }
   },
   "manualImportLinks" : [
