@@ -62,24 +62,23 @@ nav {
         line-height: 30px; }
       .googlepluscontainer .googleplus .gpcontentcontainer .lessons, .googlepluscontainer .googleplus .gpcontentcontainer .bio {
         border-radius: 3px;
-        background-color: white; }
-      .googlepluscontainer .googleplus .gpcontentcontainer .lessons {
+        background-color: white;
         width: 250px;
-        height: 500px;
+        height: 400px;
         padding: 0 15px; }
-        .googlepluscontainer .googleplus .gpcontentcontainer .lessons p, .googlepluscontainer .googleplus .gpcontentcontainer .lessons .plusfont {
-          font-size: 14px;
-          line-height: 20px; }
-        .googlepluscontainer .googleplus .gpcontentcontainer .lessons ul {
-          margin-top: 15px;
-          list-style-type: none;
-          padding-left: 25px;
-          padding-right: 25px; }
-          .googlepluscontainer .googleplus .gpcontentcontainer .lessons ul li {
-            font-size: 13px; }
+      .googlepluscontainer .googleplus .gpcontentcontainer .plusfont {
+        font-size: 14px;
+        line-height: 20px; }
+      .googlepluscontainer .googleplus .gpcontentcontainer .lessons ul {
+        margin-top: 15px;
+        list-style-type: none;
+        padding-left: 25px;
+        padding-right: 25px; }
+        .googlepluscontainer .googleplus .gpcontentcontainer .lessons ul li {
+          font-size: 13px; }
       .googlepluscontainer .googleplus .gpcontentcontainer .bio {
         width: 250px;
-        height: 500px;
+        height: 320px;
         display: inline-block;
         position: absolute;
         right: 0;
@@ -156,6 +155,7 @@ nav {
                 font-weight: bold;
                 color: #12c;
                 line-height: 1.2em; }
+<<<<<<< HEAD
   .tysearchcontainer .imagescontainer {
     background: #FFCF00;
     height: 100%; }
@@ -188,6 +188,65 @@ nav {
         padding-bottom: 20px; }
   .tysearchcontainer .about {
     background: white;
+=======
+
+.imagescontainer {
+  background: #FFCF00;
+  height: 100%; }
+  .imagescontainer figure {
+    margin-bottom: 0;
+    height: 1px; }
+  .imagescontainer .images {
+    margin: 0 30px; }
+  .imagescontainer .imagesearch {
+    width: 100%; }
+    .imagescontainer .imagesearch img {
+      width: 100%; }
+  .imagescontainer .imagespage {
+    background-color: white;
+    height: 100%;
+    padding: 0px;
+    margin-top: 0; }
+  .imagescontainer .labcoat, .imagescontainer .brianhand, .imagescontainer .brianclock {
+    display: inline-block; }
+  .imagescontainer .labcoat img {
+    height: 200px; }
+  .imagescontainer .brianhand img {
+    height: 300px; }
+  .imagescontainer .brianclock img {
+    height: 200px; }
+
+.mapscontainer {
+  background: #1851CE;
+  height: 100%; }
+  .mapscontainer .maps {
+    margin: 0 30px; }
+
+.newscontainer {
+  background: #31B639;
+  height: 100%; }
+  .newscontainer .news {
+    margin: 0 30px; }
+
+.morecontainer {
+  background-color: #C61800;
+  height: 100%; }
+  .morecontainer .more {
+    margin: 0 30px;
+    background: #C61800;
+    border-bottom: 1px solid black; }
+  .morecontainer form {
+    line-height: 1.5em; }
+    .morecontainer form fieldset {
+      padding-left: 20px;
+      padding-bottom: 20px; }
+
+.about {
+  background: white;
+  height: 100%;
+  width: 100%; }
+  .about .container {
+>>>>>>> 50fdc8e6d23c47e2a8d7dc053959fe5abfb63f22
     height: 100%;
     width: 100%; }
     .tysearchcontainer .about .container {
