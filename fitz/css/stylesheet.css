@@ -57,10 +57,9 @@ nav {
       .googlepluscontainer .googleplus .gpcontentcontainer h4 {
         font-size: 14px;
         line-height: 30px; }
-        .googlepluscontainer .googleplus .gpcontentcontainer h4:before {
-          background: url("../img/briangplus.jpg");
-          height: 25px;
-          width: 25px; }
+      .googlepluscontainer .googleplus .gpcontentcontainer h5 {
+        font-size: 13px;
+        line-height: 30px; }
       .googlepluscontainer .googleplus .gpcontentcontainer .lessons, .googlepluscontainer .googleplus .gpcontentcontainer .bio {
         border-radius: 3px;
         background-color: white; }
@@ -70,8 +69,9 @@ nav {
         padding: 0 15px; }
         .googlepluscontainer .googleplus .gpcontentcontainer .lessons p, .googlepluscontainer .googleplus .gpcontentcontainer .lessons .plusfont {
           font-size: 14px;
-          line-height: 30px; }
+          line-height: 20px; }
         .googlepluscontainer .googleplus .gpcontentcontainer .lessons ul {
+          margin-top: 15px;
           list-style-type: none;
           padding-left: 25px;
           padding-right: 25px; }

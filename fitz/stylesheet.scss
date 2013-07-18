@@ -78,11 +78,11 @@ nav {
                 h4 {
                     font-size: 14px;
                     line-height: 30px;
-                    &:before {
-                        background: url("../img/briangplus.jpg");
-                        height: 25px;
-                        width: 25px;
-                    }
+                }
+
+                h5 {
+                    font-size: 13px;
+                    line-height: 30px;
                 }
 
                 .lessons, .bio {
@@ -95,9 +95,10 @@ nav {
                     padding: 0 15px;
                     p, .plusfont{
                         font-size: 14px;
-                        line-height: 30px;
+                        line-height: 20px;
                     }
                     ul {
+                        margin-top: 15px;
                         list-style-type: none;
                         padding-left: 25px;
                         padding-right: 25px;
