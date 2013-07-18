@@ -1,0 +1,291 @@
+/*General*/
+
+* {
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+}
+
+html {
+    height:100%;
+}
+
+body {
+    height:100%;
+    background-image:url(background.png);
+    background-size:100%;
+    background-attachment: fixed;
+}
+
+.container {
+    margin: 0 auto;
+    width:100%;
+}
+
+/*Section One-Thank you page with pictures*/
+
+.thanks {
+    min-width:400px;
+    text-align: center;
+    background-color:rgba(242, 233, 225,.8);
+    height:100%;
+    position: absolute;
+}
+
+h1 {
+    font-size:40px;
+    text-decoration: underline;
+    padding-top:10%;
+    font-family:"Autour One", serif;
+}
+
+.name {
+    font-size:24px;
+    position:absolute;
+    font-family:cursive;
+    top:90%;
+}
+
+.maxsname {
+    left:20%;
+}
+
+.maxsface {
+    width:250px;
+    margin-right:31%;
+    margin-top:5%;
+}
+
+.gregsname {
+    right:20%;
+}
+
+.gregsface {
+    width:250px;
+}
+
+/*Section Two-Descriptions of Max and Greg*/
+
+.descriptions {
+    background-color: rgb(202,234,98);
+    position:absolute;
+    top:100%;
+    width:100%;
+    min-width: 400px;
+    margin:0 auto;
+    height:100%;
+}
+
+.maxdescription {
+    position:absolute;
+    height:50%;
+    width:80%;
+    padding-left:20%;
+    border-bottom:1px solid black;
+    z-index:5;
+}
+
+.maxdescription:hover {
+    height:75%;
+}
+
+.maxdescription > a {
+    top:39%;
+}
+
+.gregdescription {
+    position: absolute;;
+    top:50%;
+    height:50%;
+    width:100%;
+    z-index:3;
+    border-top:1px solid black;
+}
+
+.gregdescription:hover {
+    top:25%;
+    height:75%;
+    z-index:7;
+}
+
+.gregdescription > a {
+    right: 8%;
+    top:49%;
+}
+
+.maxdescription, .gregdescription {
+    background-color:inherit;
+    transition:all 200ms;
+}
+
+.maxdescription > a, .gregdescription > a {
+    position: absolute;
+    text-decoration: none;
+    color:white;
+    font-size: 40px;
+    transition:all 200ms;
+    font-family:'Cinzel', serif;
+}
+
+.maxdescription > a:hover, .gregdescription > a:hover {
+    color:blue;
+}
+
+.maxdescription a:hover, .gregdescription a:hover {
+    color:blue;
+}
+
+.maxparagraph {
+    color:white;
+    width:45%;
+    position: absolute;
+    top: 41%;
+    left: 49%;
+    font-size:22px;
+}
+
+.maxparagraph a, .gregparagraph a {
+    font-size:20px;
+    color:red;
+}
+
+.gregparagraph {
+    color:white;
+    font-size:22px;
+    width:45%;
+    position:absolute;
+    left:20%;
+    top:50%;
+}
+
+/*Section 3-Contact form*/
+
+.contact {
+    background-color:rgb(105,210,231);
+    position: absolute;
+    top:200%;
+    height:100%;
+    width:100%;
+}
+
+.contactform {
+    width: 598px;
+    margin:0 auto;
+    margin-top: 11%;
+}
+
+.contactform button {
+    width:100px;
+    height:40px;
+    position:absolute;
+    left:49%;
+    background-color:black;
+    margin-left:-50px;
+    color:limegreen;
+    font-size:20px;
+    transition: all 100ms;
+    border: none;
+    box-shadow:0 3px 4px #333;
+}
+
+.contactform button:active {
+    transform:translateY(3px);
+    -webkit-transform:translateY(3px);
+    -moz-transform:translateY(3px);
+    box-shadow:none;
+    /*border-radius:20px;*/
+    /*margin-left:-75px;*/
+}
+
+legend {
+    font-size: 30px;
+}
+
+.userinfo {
+    display:inline-block;
+    padding:3px;
+}
+
+.userinfo input {
+    width:300px;
+    height:30px;
+    font-size:24px;
+}
+
+.sendto {
+    display:inline-block;
+    padding-top:10px;
+    padding-left:10px;
+}
+
+.sendto input {
+    width: 50px;
+    height: 47px;
+    padding-bottom:10px;
+}
+
+.radiobutton {
+    font-size: 32px;
+}
+
+textarea {
+    font-size:20px;
+}
+
+/*Section Four-Quotes*/
+
+.quotes {
+    background-color:rgb(255,142,80);
+    position: absolute;
+    top:300%;
+    height:100%;
+    width:100%;
+}
+
+.wwt {
+    font-size: 60px;
+    position: absolute;
+    left: 36%;
+    top: 40%;
+}
+
+.quotes blockquote {
+    width:39%;
+}
+
+.qs {
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+}
+
+.top-quote {
+    top: 12%;
+    left: 31.5%;
+}
+
+.left-quote {
+    left: 8%;
+    top: 70%;
+}
+
+.right-quote {
+    right:0;
+    top:70%;
+}
+
+/*Section Five-Footer*/
+
+footer {
+    position:absolute;
+    top:400%;
+    width:96%;
+    padding:2%;
+    text-align:center;
+    background-color:#19b5a5;
+}
+
+footer a {
+    text-decoration: none;
+    color:darkblue;
+}
