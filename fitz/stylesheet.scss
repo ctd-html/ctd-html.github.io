@@ -211,6 +211,12 @@ nav {
     .images {
         margin: 0 30px;
     }
+    .imagesearch {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
 }
 // Section 5 - Maps
 .mapscontainer {

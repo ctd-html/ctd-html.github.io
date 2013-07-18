@@ -162,6 +162,10 @@ nav {
   height: 100%; }
   .imagescontainer .images {
     margin: 0 30px; }
+  .imagescontainer .imagesearch {
+    width: 100%; }
+    .imagescontainer .imagesearch img {
+      width: 100%; }
 
 .mapscontainer {
   background: #1851CE;
