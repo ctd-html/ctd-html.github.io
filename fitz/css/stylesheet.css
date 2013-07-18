@@ -36,7 +36,7 @@ nav {
   height: 100%;
   background: #1851CE; }
   .googlepluscontainer .googleplus {
-    margin: 30px;
+    margin: 0 30px;
     border-top: 1px solid black;
     background-color: #e5e5e5; }
     .googlepluscontainer .googleplus .googleplusthanks {
@@ -54,12 +54,29 @@ nav {
       width: 600px;
       height: 500px;
       position: relative; }
+      .googlepluscontainer .googleplus .gpcontentcontainer h4 {
+        font-size: 14px;
+        line-height: 30px; }
+        .googlepluscontainer .googleplus .gpcontentcontainer h4:before {
+          background: url("../img/briangplus.jpg");
+          height: 25px;
+          width: 25px; }
       .googlepluscontainer .googleplus .gpcontentcontainer .lessons, .googlepluscontainer .googleplus .gpcontentcontainer .bio {
         border-radius: 3px;
         background-color: white; }
       .googlepluscontainer .googleplus .gpcontentcontainer .lessons {
         width: 250px;
-        height: 500px; }
+        height: 500px;
+        padding: 0 15px; }
+        .googlepluscontainer .googleplus .gpcontentcontainer .lessons p, .googlepluscontainer .googleplus .gpcontentcontainer .lessons .plusfont {
+          font-size: 14px;
+          line-height: 30px; }
+        .googlepluscontainer .googleplus .gpcontentcontainer .lessons ul {
+          list-style-type: none;
+          padding-left: 25px;
+          padding-right: 25px; }
+          .googlepluscontainer .googleplus .gpcontentcontainer .lessons ul li {
+            font-size: 13px; }
       .googlepluscontainer .googleplus .gpcontentcontainer .bio {
         width: 250px;
         height: 500px;
@@ -68,92 +85,106 @@ nav {
         right: 0;
         top: 0; }
 
-.search {
-  background: #C61800; }
-  .search .tysearch {
-    width: 100%;
-    background-color: white;
-    padding-bottom: 30px; }
-    .search .tysearch img {
-      width: 100%; }
-  .search .searchbigdiv {
-    margin-left: 140px;
-    color: #222;
-    display: block;
-    font-size: 16px;
-    font-weight: normal;
-    height: 80%;
-    padding-top: 6px;
-    width: 512px; }
-    .search .searchbigdiv ol {
-      color: #222222;
+.tysearchcontainer {
+  height: 100%;
+  background-color: #C61800; }
+  .tysearchcontainer .search {
+    margin: 0 30px; }
+    .tysearchcontainer .search .tysearch {
+      width: 100%;
+      background-color: white;
+      padding-bottom: 30px; }
+      .tysearchcontainer .search .tysearch img {
+        width: 100%; }
+    .tysearchcontainer .search .searchbigdiv {
+      margin-left: 140px;
+      color: #222;
       display: block;
       font-size: 16px;
       font-weight: normal;
       height: 80%;
-      list-style-type: decimal;
-      margin: 0;
-      padding: 0;
+      padding-top: 6px;
       width: 512px; }
-      .search .searchbigdiv ol li {
-        display: list-item;
-        font-size: 13px;
+      .tysearchcontainer .search .searchbigdiv ol {
+        color: #222222;
+        display: block;
+        font-size: 16px;
         font-weight: normal;
-        height: 60px;
-        line-height: 15px;
-        list-style-image: none;
-        list-style-position: outside;
-        list-style-type: none;
-        margin-bottom: 23px;
+        height: 80%;
+        list-style-type: decimal;
+        margin: 0;
         padding: 0;
-        text-align: left;
         width: 512px; }
-        .search .searchbigdiv ol li div {
-          display: block;
+        .tysearchcontainer .search .searchbigdiv ol li {
+          display: list-item;
           font-size: 13px;
           font-weight: normal;
           height: 60px;
           line-height: 15px;
-          position: relative;
+          list-style-image: none;
+          list-style-position: outside;
+          list-style-type: none;
+          margin-bottom: 23px;
+          padding: 0;
+          text-align: left;
           width: 512px; }
-          .search .searchbigdiv ol li div h3 {
+          .tysearchcontainer .search .searchbigdiv ol li div {
             display: block;
-            font-size: 16px;
-            height: 19px;
+            font-size: 13px;
             font-weight: normal;
-            margin: 0;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            padding: 0;
-            text-overflow: ellipsis;
-            white-space: nowrap; }
-            .search .searchbigdiv ol li div h3 a {
-              display: inline;
-              height: auto;
-              width: auto;
-              white-space: nowrap;
+            height: 60px;
+            line-height: 15px;
+            position: relative;
+            width: 512px; }
+            .tysearchcontainer .search .searchbigdiv ol li div h3 {
+              display: block;
               font-size: 16px;
-              font-weight: bold;
-              color: #12c;
-              line-height: 1.2em; }
+              height: 19px;
+              font-weight: normal;
+              margin: 0;
+              overflow-x: hidden;
+              overflow-y: hidden;
+              padding: 0;
+              text-overflow: ellipsis;
+              white-space: nowrap; }
+              .tysearchcontainer .search .searchbigdiv ol li div h3 a {
+                display: inline;
+                height: auto;
+                width: auto;
+                white-space: nowrap;
+                font-size: 16px;
+                font-weight: bold;
+                color: #12c;
+                line-height: 1.2em; }
 
-.images {
-  background: #FFCF00; }
+.imagescontainer {
+  background: #FFCF00;
+  height: 100%; }
+  .imagescontainer .images {
+    margin: 0 30px; }
 
-.maps {
-  background: #1851CE; }
+.mapscontainer {
+  background: #1851CE;
+  height: 100%; }
+  .mapscontainer .maps {
+    margin: 0 30px; }
 
-.news {
-  background: #31B639; }
+.newscontainer {
+  background: #31B639;
+  height: 100%; }
+  .newscontainer .news {
+    margin: 0 30px; }
 
-.more {
-  background: #C61800; }
-
-form {
-  line-height: 1.5em; }
-  form fieldset {
-    padding-left: 20px;
-    padding-bottom: 20px; }
+.morecontainer {
+  background-color: #C61800;
+  height: 100%; }
+  .morecontainer .more {
+    margin: 0 30px; }
+  .morecontainer form {
+    line-height: 1.5em; }
+    .morecontainer form fieldset {
+      padding-left: 20px;
+      padding-bottom: 20px; }
 
 .about {
   background: blanchedalmond; }
