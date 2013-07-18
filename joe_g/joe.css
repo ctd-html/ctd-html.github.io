@@ -21,6 +21,19 @@ body {
     top: 0;
 }
 
+/*Blue Boxes*/
+
+.main_boxes{
+    width: 100%;
+    opacity: 0.7;
+    height: 780px;
+    background-color: #69D2E7;
+    margin-top: 300px;
+    position: relative;
+}
+
+/*Name*/
+
 .name {
     color: #F38630;
     margin-top: 50px;
@@ -31,7 +44,7 @@ body {
     width: 100%;
 }
 
-/*Main Boxes*/
+/*Bio*/
 
 .description_img1, .description_img2 {
     height: 240px;
@@ -50,6 +63,16 @@ body {
     opacity: 1.5;
 }
 
+.pic-box {
+    float: left;
+    margin-top: 85px;
+}
+
+.pic-box img {
+    display: block;
+}
+
+
 .bio_text{
     padding-top: 125px;
 }
@@ -67,38 +90,64 @@ a:hover {
 .contact{
     position: relative;
     margin-left: 300px;
-    margin-top: 85px;
+    margin-top: 215px;
 }
 
-.main_boxes{
-    width: 100%;
-    opacity: 0.7;
-    height: 780px;
-    background-color: #69D2E7;
-    margin-top: 300px;
-    position: relative;
+
+/*Forms*/
+
+.textarea {
+    width: 300px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+.forms{
+    text-align: center;
+    padding-top: 200px
+}
+
+/*Thank You*/
 
 .thankyou {
     padding-top: 350px;
     opacity: 1;
-    color: #FA6900;
+    color: #E0E4CC;
     text-align: center;
     font-size: 140px;
     font-family: 'Aldrich', sans-serif;
 }
 
 .thankyou:hover {
-    color: #E0E4CC;
+    color: #FA6900;
 }
 
-.pic-box {
-    float: left;
-    margin-top: 85px;
+/*Creators*/
+
+.footer{
+    width: 100%;
+    opacity: 0.7;
+    height: 300px;
+    background-color: #69D2E7;
+    margin-top: 300px;
+    position: relative;
 }
 
-.pic-box img {
-    display: block;
+.creators {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Aldrich', sans-serif;
 }
 
+.gus {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.vera {
+    margin-top: 30px;
+    margin-left: 30px;
+}
 
