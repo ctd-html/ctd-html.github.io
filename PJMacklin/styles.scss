@@ -8,6 +8,10 @@ $orange: #E9A353;
 
 // GENERAL
 
+html {
+    height: 100%;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -18,6 +22,7 @@ $orange: #E9A353;
 
 body {
     background: url(bgimage.png) 0 0;
+    height: 100%;
 }
 
 .slide {
