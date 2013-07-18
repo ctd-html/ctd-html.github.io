@@ -89,15 +89,16 @@ nav {
                 .lessons, .bio {
                     border-radius: 3px;
                     background-color: white;
+                    width: 250px;
+                    height: 400px;
+                    padding: 0 15px;
+                }
+                .plusfont{
+                    font-size: 14px;
+                    line-height: 20px;
                 }
                 .lessons {
-                    width: 250px;
-                    height: 500px;
-                    padding: 0 15px;
-                    p, .plusfont{
-                        font-size: 14px;
-                        line-height: 20px;
-                    }
+
                     ul {
                         margin-top: 15px;
                         list-style-type: none;
@@ -110,7 +111,7 @@ nav {
                 }
                 .bio {
                     width: 250px;
-                    height: 500px;
+                    height: 320px;
                     display: inline-block;
                     position: absolute;
                     right: 0;
@@ -134,13 +135,7 @@ nav {
                 width: 100%;
             }
         }
-
-<<<<<<< HEAD
         .searchbigdiv {
-            margin-left: 140px;
-            color: #222;
-=======
-    .searchbigdiv {
         margin-left: 10%;
         color: #222;
         display: block;
@@ -149,17 +144,6 @@ nav {
         height: 80%;
         padding-top: 6px;
         width: 512px;
-
-        ol {
-            color: rgb(34,34,34);
->>>>>>> 227f404dcca60e958f9b52608e4841465ecbe834
-            display: block;
-            font-size: 16px;
-            font-weight: normal;
-            height: 80%;
-            padding-top: 6px;
-            width: 512px;
-
             ol {
                 color: rgb(34,34,34);
                 display: block;
@@ -224,6 +208,10 @@ nav {
 .imagescontainer{
     background: #FFCF00;
     height: 100%;
+    figure {
+        margin-bottom: 0;
+        height: 1px;
+    }
     .images {
         margin: 0 30px;
     }
@@ -232,6 +220,25 @@ nav {
         img {
             width: 100%;
         }
+    }
+    .imagespage {
+        background-color: white;
+        height: 100%;
+        padding: 0px;
+        margin-top: 0;
+
+    }
+    .labcoat, .brianhand, .brianclock {
+        display: inline-block;
+    }
+    .labcoat img{
+        height: 200px;
+    }
+    .brianhand img{
+        height: 300px;
+    }
+    .brianclock img{
+        height: 200px;
     }
 }
 // Section 5 - Maps
@@ -251,12 +258,14 @@ nav {
     }
 }
 // Section 7 - More
-<<<<<<< HEAD
 .morecontainer {
     background-color: #C61800;
     height: 100%;
     .more {
         margin: 0 30px;
+        background: #C61800;
+        border-bottom: 1px solid black;
+
     }
     form {
         line-height: 1.5em;
@@ -264,22 +273,8 @@ nav {
             padding-left: 20px;
             padding-bottom: 20px;
         }
-=======
-
-.more {
-    background: #C61800;
-    border-bottom: 1px solid black;
-}
-
-form {
-    line-height: 1.5em;
-    fieldset {
-        padding-left: 20px;
-        padding-bottom: 20px;
->>>>>>> 227f404dcca60e958f9b52608e4841465ecbe834
     }
 }
-
 // Section 8 - About
 
 .about {
@@ -332,3 +327,4 @@ form {
         }
     }
 }
+

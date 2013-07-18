@@ -62,30 +62,28 @@ nav {
         line-height: 30px; }
       .googlepluscontainer .googleplus .gpcontentcontainer .lessons, .googlepluscontainer .googleplus .gpcontentcontainer .bio {
         border-radius: 3px;
-        background-color: white; }
-      .googlepluscontainer .googleplus .gpcontentcontainer .lessons {
+        background-color: white;
         width: 250px;
-        height: 500px;
+        height: 400px;
         padding: 0 15px; }
-        .googlepluscontainer .googleplus .gpcontentcontainer .lessons p, .googlepluscontainer .googleplus .gpcontentcontainer .lessons .plusfont {
-          font-size: 14px;
-          line-height: 20px; }
-        .googlepluscontainer .googleplus .gpcontentcontainer .lessons ul {
-          margin-top: 15px;
-          list-style-type: none;
-          padding-left: 25px;
-          padding-right: 25px; }
-          .googlepluscontainer .googleplus .gpcontentcontainer .lessons ul li {
-            font-size: 13px; }
+      .googlepluscontainer .googleplus .gpcontentcontainer .plusfont {
+        font-size: 14px;
+        line-height: 20px; }
+      .googlepluscontainer .googleplus .gpcontentcontainer .lessons ul {
+        margin-top: 15px;
+        list-style-type: none;
+        padding-left: 25px;
+        padding-right: 25px; }
+        .googlepluscontainer .googleplus .gpcontentcontainer .lessons ul li {
+          font-size: 13px; }
       .googlepluscontainer .googleplus .gpcontentcontainer .bio {
         width: 250px;
-        height: 500px;
+        height: 320px;
         display: inline-block;
         position: absolute;
         right: 0;
         top: 0; }
 
-<<<<<<< HEAD
 .tysearchcontainer {
   height: 100%;
   background-color: #C61800; }
@@ -98,29 +96,8 @@ nav {
       .tysearchcontainer .search .tysearch img {
         width: 100%; }
     .tysearchcontainer .search .searchbigdiv {
-      margin-left: 140px;
+      margin-left: 10%;
       color: #222;
-=======
-.search {
-  background: #C61800; }
-  .search .tysearch {
-    width: 100%;
-    background-color: white;
-    padding-bottom: 30px; }
-    .search .tysearch img {
-      width: 100%; }
-  .search .searchbigdiv {
-    margin-left: 10%;
-    color: #222;
-    display: block;
-    font-size: 16px;
-    font-weight: normal;
-    height: 80%;
-    padding-top: 6px;
-    width: 512px; }
-    .search .searchbigdiv ol {
-      color: #222222;
->>>>>>> 227f404dcca60e958f9b52608e4841465ecbe834
       display: block;
       font-size: 16px;
       font-weight: normal;
@@ -182,12 +159,28 @@ nav {
 .imagescontainer {
   background: #FFCF00;
   height: 100%; }
+  .imagescontainer figure {
+    margin-bottom: 0;
+    height: 1px; }
   .imagescontainer .images {
     margin: 0 30px; }
   .imagescontainer .imagesearch {
     width: 100%; }
     .imagescontainer .imagesearch img {
       width: 100%; }
+  .imagescontainer .imagespage {
+    background-color: white;
+    height: 100%;
+    padding: 0px;
+    margin-top: 0; }
+  .imagescontainer .labcoat, .imagescontainer .brianhand, .imagescontainer .brianclock {
+    display: inline-block; }
+  .imagescontainer .labcoat img {
+    height: 200px; }
+  .imagescontainer .brianhand img {
+    height: 300px; }
+  .imagescontainer .brianclock img {
+    height: 200px; }
 
 .mapscontainer {
   background: #1851CE;
@@ -195,23 +188,19 @@ nav {
   .mapscontainer .maps {
     margin: 0 30px; }
 
-<<<<<<< HEAD
 .newscontainer {
   background: #31B639;
   height: 100%; }
   .newscontainer .news {
     margin: 0 30px; }
-=======
-.more {
-  background: #C61800;
-  border-bottom: 1px solid black; }
->>>>>>> 227f404dcca60e958f9b52608e4841465ecbe834
 
 .morecontainer {
   background-color: #C61800;
   height: 100%; }
   .morecontainer .more {
-    margin: 0 30px; }
+    margin: 0 30px;
+    background: #C61800;
+    border-bottom: 1px solid black; }
   .morecontainer form {
     line-height: 1.5em; }
     .morecontainer form fieldset {
