@@ -59,7 +59,7 @@ nav {
     .search .tysearch img {
       width: 100%; }
   .search .searchbigdiv {
-    margin-left: 140px;
+    margin-left: 10%;
     color: #222;
     display: block;
     font-size: 16px;
@@ -129,7 +129,8 @@ nav {
   background: #31B639; }
 
 .more {
-  background: #C61800; }
+  background: #C61800;
+  border-bottom: 1px solid black; }
 
 form {
   line-height: 1.5em; }
@@ -138,4 +139,41 @@ form {
     padding-bottom: 20px; }
 
 .about {
-  background: blanchedalmond; }
+  background: white;
+  height: 100%;
+  width: 100%; }
+  .about .container {
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    padding-bottom: 0; }
+    .about .container .column {
+      width: 16%;
+      vertical-align: top;
+      display: inline-block;
+      height: 100%;
+      padding: 1.1%;
+      border-left: 1px solid black;
+      padding-bottom: 0; }
+    .about .container .chris {
+      width: 10%;
+      background: #1851CE; }
+      .about .container .chris h3 {
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        margin-top: 80px; }
+    .about .container .chrisimg {
+      background: #C61800; }
+    .about .container .chrisdesc {
+      background: #FFCF00; }
+    .about .container .ethandesc {
+      background: #1851CE; }
+    .about .container .ethanimg {
+      background: #31B639; }
+    .about .container .ethan {
+      width: 10%;
+      background: #C61800; }
+      .about .container .ethan h3 {
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        margin-top: 120px; }

@@ -48,6 +48,7 @@ nav {
 }
 
 // Section 2 - Google Plus
+
 .googlepluscontainer{
     height: 100%;
     background: #1851CE;
@@ -87,7 +88,7 @@ nav {
     }
 
     .searchbigdiv {
-        margin-left: 140px;
+        margin-left: 10%;
         color: #222;
         display: block;
         font-size: 16px;
@@ -177,6 +178,7 @@ nav {
 
 .more {
     background: #C61800;
+    border-bottom: 1px solid black;
 }
 
 form {
@@ -190,5 +192,52 @@ form {
 // Section 8 - About
 
 .about {
-    background: blanchedalmond;
+    background: white;
+    height: 100%;
+    width: 100%;
+    .container {
+        height: 100%;
+        width: 100%;
+        vertical-align: top;
+        padding-bottom: 0;
+        .column {
+            width: 16%;
+            vertical-align: top;
+            display: inline-block;
+            height: 100%;
+            padding: 1.1%;
+            border-left: 1px solid black;
+            padding-bottom: 0;
+        }
+        .chris {
+            width: 10%;
+            background: #1851CE;
+            h3 {
+                transform: rotate(-90deg);
+                -webkit-transform: rotate(-90deg);
+                margin-top: 80px;
+            }
+        }
+        .chrisimg {
+            background: #C61800;
+        }
+        .chrisdesc {
+            background: #FFCF00;
+        }
+        .ethandesc {
+            background: #1851CE;
+        }
+        .ethanimg {
+            background: #31B639;
+        }
+        .ethan {
+            width: 10%;
+            background: #C61800;
+            h3 {
+                transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                margin-top: 120px;
+            }
+        }
+    }
 }
