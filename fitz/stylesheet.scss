@@ -48,22 +48,27 @@ nav {
 }
 
 // Section 2 - Google Plus
-
-.googleplus {
-    border-top: 1px solid black;
+.googlepluscontainer{
+    height: 100%;
     background: #1851CE;
-    .googleplusthanks {
-        width: 100%;
+
+    .googleplus {
+        margin: 30px;
+        border-top: 1px solid black;
         background-color: white;
-        padding-bottom: 30px;
-        img {
+        .googleplusthanks {
             width: 100%;
+            background-color: white;
+            padding-bottom: 30px;
+            img {
+                width: 100%;
+            }
         }
-    }
-    .googleplusbio {
-        width:100%;
-        img {
-            width: 100%
+        .googleplusbio {
+            width:100%;
+            img {
+                width: 100%
+            }
         }
     }
 }
@@ -80,7 +85,7 @@ nav {
             width: 100%;
         }
     }
-    
+
     .searchbigdiv {
         margin-left: 140px;
         color: #222;
