@@ -2,7 +2,7 @@
 $darkblue: #44454F;
 $white: #FEFDFD;
 $redorange: #EB684A;
-$lightgrey: #C1BEC1;
+$lightgrey: #DEDEDE;
 $orange: #E9A353;
 
 
@@ -13,7 +13,7 @@ $orange: #E9A353;
     margin: 0;
     font-family: "Roboto", Helvetica, arial, sans-serif;
     font-weight: 300;
-    color: black;
+    color: $white;
 }
 
 .slide {
@@ -29,7 +29,16 @@ $orange: #E9A353;
 
 h2 {
     text-align: center;
-    padding-top: 10%;
+    padding-top: 100px;
+}
+
+a {
+    color: $orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darken($orange, 20%);
 }
 
 // TITLE
@@ -44,11 +53,9 @@ h2 {
         text-transform: uppercase;
         letter-spacing: 10px;
         font-size: 60px;
-        padding-top: 7%;
+        padding-top: 5%;
     }
     a {
-        color: $white;
-        text-decoration: none;
         display: inline-block;
         width: 80px;
         padding-left: 40px;
@@ -59,8 +66,8 @@ h2 {
         z-index: 0;
         content: "";
         margin: 5% auto 0;
-        width: 240px;
-        height: 240px;
+        width: 320px;
+        height: 320px;
         border-radius: 320px;
         background: url(pjmacklinpic.png) no-repeat 0 0;
         background-size: 100%;
@@ -78,33 +85,38 @@ h2 {
     text-align: center;
     background: $redorange;
     img {
-        width: 140px;
+        width: 17.25%;
         height: 100px;
-        margin: 5% 6px 1%;
+        margin: 5% 1% 1%;
         display: inline-block;
         border: 1px solid $white;
     }
     q {
+        text-align: left;
+        font-size: 12px;
         float: right;
         clear: right;
         display: inline-block;
         width: 300px;
-        margin: 1% 10px;
-        height: 10%;
-        background-color: $white;
+        margin: 2% 5px;
+        padding: .25% 5px;
         &:before {
             content:"";
         }
         &:after {
             content:"";
         }
+        em {
+            float: right;
+        }
     }
 
     p {
+        padding: 5px;
+        text-align: left;
         width: 460px;
-        height: 40%;
         margin: 1% 10px;
-        background-color: $white;
+        line-height: 1.5;
     }
 }
 
@@ -117,43 +129,109 @@ h2 {
         padding-top: 5%;
         display: inline-block;
         width: 460px;
-        text-align: left;
+        text-align: center;
         input {
             vertical-align: middle;
             display: inline-block;
-            margin: 1%;
+            margin: 2%;
             border: none;
-            padding: 3px;
+            padding: 5px;
             outline: none;
-        }
-        .discover input:not(:first-child) {
-            margin-right: 2px;
-            margin-left: 20px;
+            color: black;
+            &[required] {
+                width: 100%
+            }
         }
         .discover {
+            margin-left: 2%;
+            text-align: left;
+            input:not(:nth-child(2)) {
+                margin-right: 2px;
+                margin-left: 20px;
+            }
             input[type=text] {
                 margin-left: 5px;
             }
         }
         textarea {
-            margin: 1%;
-            width: 460px;
-            height: 20%;
+            margin: 2%;
+            width: 100%;
+            height: 25%;
             border: none;
-            padding: 3px;
+            padding: 5px;
             outline: none;
+            color: black;
         }
         button {
-            margin: 1%;
-            width: 80px;
-            height: 25px;
+            color: $orange;
+            cursor: pointer;
+            display: inline-block;
+            padding: 5px 20px;
             background: #44454F;
             border: 2px solid $white;
             border-radius: 10px;
-            color: $white;
             outline: none;
+        }
+        button:hover {
+            color: darken($orange, 20%)
         }
     }
 }
 
 // FOOTER
+
+footer {
+    height: 45%;
+    background-color: $lightgrey;
+    text-align: center;
+    h2 {
+        color: $darkblue;
+        padding-top: 2%;
+    }
+    article {
+        height: 45%;
+        margin: 2%;
+        width: 45%;
+        float: left;
+        text-align: center;
+        p {
+            margin-top: 20px;
+            color: $darkblue;
+            text-align: left;
+        }
+        h3{
+            text-align: left;
+            position: relative;
+            color: $redorange;
+            padding-left: 80px;
+            padding-top: 5px;
+        }
+        h3:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 60px;
+            width: 60px;
+            border: 1px solid $darkblue;
+            border-radius: 60px;
+        }
+        .grant:before {
+            background: url(grant.jpg) no-repeat 0 0;
+            background-size: 100%
+        }
+        .mohammed:before {
+            background: url(mohammed.jpg) no-repeat 0 -10px;
+            background-size: 100%
+        }
+        a {
+            margin-top: 20px;
+            padding: 5px 20px;
+            border: 2px solid $white;
+            border-radius: 10px;
+            background: $darkblue;
+            display: inline-block;
+            font-size: 12px;
+        }
+    }
+}

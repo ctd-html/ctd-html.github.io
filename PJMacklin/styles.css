@@ -4,7 +4,7 @@
   margin: 0;
   font-family: "Roboto", Helvetica, arial, sans-serif;
   font-weight: 300;
-  color: black; }
+  color: #fefdfd; }
 
 .slide {
   width: 100%;
@@ -17,7 +17,14 @@
 
 h2 {
   text-align: center;
-  padding-top: 10%; }
+  padding-top: 100px; }
+
+a {
+  color: #e9a353;
+  text-decoration: none; }
+
+a:hover {
+  color: #be7118; }
 
 .title {
   text-align: center;
@@ -29,10 +36,8 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 10px;
     font-size: 60px;
-    padding-top: 7%; }
+    padding-top: 5%; }
   .title a {
-    color: #fefdfd;
-    text-decoration: none;
     display: inline-block;
     width: 80px;
     padding-left: 40px;
@@ -42,8 +47,8 @@ h2 {
     z-index: 0;
     content: "";
     margin: 5% auto 0;
-    width: 240px;
-    height: 240px;
+    width: 320px;
+    height: 320px;
     border-radius: 320px;
     background: url(pjmacklinpic.png) no-repeat 0 0;
     background-size: 100%; }
@@ -56,28 +61,32 @@ h2 {
   text-align: center;
   background: #eb684a; }
   .about img {
-    width: 140px;
+    width: 17.25%;
     height: 100px;
-    margin: 5% 6px 1%;
+    margin: 5% 1% 1%;
     display: inline-block;
     border: 1px solid #fefdfd; }
   .about q {
+    text-align: left;
+    font-size: 12px;
     float: right;
     clear: right;
     display: inline-block;
     width: 300px;
-    margin: 1% 10px;
-    height: 10%;
-    background-color: #fefdfd; }
+    margin: 2% 5px;
+    padding: .25% 5px; }
     .about q:before {
       content: ""; }
     .about q:after {
       content: ""; }
+    .about q em {
+      float: right; }
   .about p {
+    padding: 5px;
+    text-align: left;
     width: 460px;
-    height: 40%;
     margin: 1% 10px;
-    background-color: #fefdfd; }
+    line-height: 1.5; }
 
 .contact {
   text-align: center;
@@ -86,32 +95,88 @@ h2 {
     padding-top: 5%;
     display: inline-block;
     width: 460px;
-    text-align: left; }
+    text-align: center; }
     .contact form input {
       vertical-align: middle;
       display: inline-block;
-      margin: 1%;
+      margin: 2%;
       border: none;
-      padding: 3px;
-      outline: none; }
-    .contact form .discover input:not(:first-child) {
-      margin-right: 2px;
-      margin-left: 20px; }
-    .contact form .discover input[type=text] {
-      margin-left: 5px; }
+      padding: 5px;
+      outline: none;
+      color: black; }
+      .contact form input[required] {
+        width: 100%; }
+    .contact form .discover {
+      margin-left: 2%;
+      text-align: left; }
+      .contact form .discover input:not(:nth-child(2)) {
+        margin-right: 2px;
+        margin-left: 20px; }
+      .contact form .discover input[type=text] {
+        margin-left: 5px; }
     .contact form textarea {
-      margin: 1%;
-      width: 460px;
-      height: 20%;
+      margin: 2%;
+      width: 100%;
+      height: 25%;
       border: none;
-      padding: 3px;
-      outline: none; }
+      padding: 5px;
+      outline: none;
+      color: black; }
     .contact form button {
-      margin: 1%;
-      width: 80px;
-      height: 25px;
+      color: #e9a353;
+      cursor: pointer;
+      display: inline-block;
+      padding: 5px 20px;
       background: #44454F;
       border: 2px solid #fefdfd;
       border-radius: 10px;
-      color: #fefdfd;
       outline: none; }
+    .contact form button:hover {
+      color: #be7118; }
+
+footer {
+  height: 45%;
+  background-color: #dedede;
+  text-align: center; }
+  footer h2 {
+    color: #44454f;
+    padding-top: 2%; }
+  footer article {
+    height: 45%;
+    margin: 2%;
+    width: 45%;
+    float: left;
+    text-align: center; }
+    footer article p {
+      margin-top: 20px;
+      color: #44454f;
+      text-align: left; }
+    footer article h3 {
+      text-align: left;
+      position: relative;
+      color: #eb684a;
+      padding-left: 80px;
+      padding-top: 5px; }
+    footer article h3:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 60px;
+      width: 60px;
+      border: 1px solid #44454f;
+      border-radius: 60px; }
+    footer article .grant:before {
+      background: url(grant.jpg) no-repeat 0 0;
+      background-size: 100%; }
+    footer article .mohammed:before {
+      background: url(mohammed.jpg) no-repeat 0 -10px;
+      background-size: 100%; }
+    footer article a {
+      margin-top: 20px;
+      padding: 5px 20px;
+      border: 2px solid #fefdfd;
+      border-radius: 10px;
+      background: #44454f;
+      display: inline-block;
+      font-size: 12px; }
