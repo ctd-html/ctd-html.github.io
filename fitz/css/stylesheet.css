@@ -54,6 +54,9 @@ nav {
       width: 600px;
       height: 500px;
       position: relative; }
+      .googlepluscontainer .googleplus .gpcontentcontainer .lessons, .googlepluscontainer .googleplus .gpcontentcontainer .bio {
+        border-radius: 3px;
+        background-color: white; }
       .googlepluscontainer .googleplus .gpcontentcontainer .lessons {
         width: 250px;
         height: 500px; }

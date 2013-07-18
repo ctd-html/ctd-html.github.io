@@ -75,6 +75,10 @@ nav {
             width: 600px;
             height: 500px;
             position: relative;
+                .lessons, .bio {
+                    border-radius: 3px;
+                    background-color: white;
+                }
                 .lessons {
                     width: 250px;
                     height: 500px;
