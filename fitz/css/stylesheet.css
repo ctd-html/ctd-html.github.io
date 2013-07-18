@@ -65,10 +65,71 @@ nav ul li:hover {
   background: #C61800;
 }
 .search .tysearch {
-  width: 100%;
-  background-color: white;
-  padding-bottom: 30px;
-}
+    width: 100%;
+    background-color: white;
+    padding-bottom: 30px; }
+    .search .tysearch img {
+      width: 100%; }
+  .search .searchbigdiv {
+    margin-left: 140px;
+    color: #222;
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    height: 80%;
+    padding-top: 6px;
+    width: 512px; }
+    .search .searchbigdiv ol {
+      color: #222222;
+      display: block;
+      font-size: 16px;
+      font-weight: normal;
+      height: 80%;
+      list-style-type: decimal;
+      margin: 0;
+      padding: 0;
+      width: 512px; }
+      .search .searchbigdiv ol li {
+        display: list-item;
+        font-size: 13px;
+        font-weight: normal;
+        height: 60px;
+        line-height: 15px;
+        list-style-image: none;
+        list-style-position: outside;
+        list-style-type: none;
+        margin-bottom: 23px;
+        padding: 0;
+        text-align: left;
+        width: 512px; }
+        .search .searchbigdiv ol li div {
+          display: block;
+          font-size: 13px;
+          font-weight: normal;
+          height: 60px;
+          line-height: 15px;
+          position: relative;
+          width: 512px; }
+          .search .searchbigdiv ol li div h3 {
+            display: block;
+            font-size: 16px;
+            height: 19px;
+            font-weight: normal;
+            margin: 0;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            padding: 0;
+            text-overflow: ellipsis;
+            white-space: nowrap; }
+            .search .searchbigdiv ol li div h3 a {
+              display: inline;
+              height: auto;
+              width: auto;
+              white-space: nowrap;
+              font-size: 16px;
+              font-weight: bold;
+              color: #12c;
+              line-height: 1.2em; }
 .search .tysearch img {
   width: 100%;
 }
