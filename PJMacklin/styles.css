@@ -96,6 +96,9 @@ a:hover {
     display: inline-block;
     width: 460px;
     text-align: center; }
+    .contact form label {
+      margin-left: 2%;
+      float: left; }
     .contact form input {
       vertical-align: middle;
       display: inline-block;
