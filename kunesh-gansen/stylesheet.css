@@ -67,11 +67,31 @@ body, html {
     background-color: rgb(229,128,34);
 }
 
+.quotes h2 {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Denk One', sans-serif;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
 .studentquotes {
     background-color: blue;
-    display:inline-block;
-    height:60px;
-    width:200px;
+    display:block;
+    margin-bottom: 30px;
+    /*display: inline-block;*/
+    height:70px;
+    width:600px;
+    /*display: none;*/
+}
+
+.leftquote {
+    float:left;
+}
+
+.rightquote {
+    float:right;
 }
 
 /*FORMS*/
