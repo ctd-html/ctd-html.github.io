@@ -67,6 +67,13 @@ body, html {
     background-color: rgb(229,128,34);
 }
 
+.studentquotes {
+    background-color: blue;
+    display:inline-block;
+    height:60px;
+    width:200px;
+}
+
 /*FORMS*/
 
 .forms {
