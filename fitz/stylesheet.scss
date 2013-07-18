@@ -55,7 +55,7 @@ nav {
     .googleplus {
         margin: 30px;
         border-top: 1px solid black;
-        background-color: white;
+        background-color: rgb(229, 229, 229);
         .googleplusthanks {
             width: 100%;
             background-color: white;
@@ -69,6 +69,24 @@ nav {
             img {
                 width: 100%
             }
+        }
+        .gpcontentcontainer {
+            margin: 30px auto;
+            width: 600px;
+            height: 500px;
+            position: relative;
+                .lessons {
+                    width: 250px;
+                    height: 500px;
+                }
+                .bio {
+                    width: 250px;
+                    height: 500px;
+                    display: inline-block;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
         }
     }
 }
