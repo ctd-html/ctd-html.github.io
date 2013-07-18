@@ -1,3 +1,5 @@
+/*Color Scheme */
+/*General*/
 * {
   margin: 0;
   padding: 0; }
@@ -33,6 +35,13 @@ section {
   width: 940px;
   margin: 0 auto; }
 
+header, .kickstarter, .contact {
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 940px; }
+
+/*Head thank you */
 header {
   background: linear-gradient(#789048, #607848); }
   header img {
@@ -75,6 +84,7 @@ header {
     header a:hover {
       border: 3px inset #c0d860; }
 
+/*Kick starter section*/
 .kickstarter {
   background: #f0f0d8; }
   .kickstarter h3 {
@@ -86,6 +96,11 @@ header {
       color: #c0d860; }
   .kickstarter h6 {
     font-size: 18px; }
+  .kickstarter div {
+    margin: 20px;
+    display: inline-block; }
+  .kickstarter h2 {
+    background: #604848; }
   .kickstarter section div {
     float: left;
     width: 29%;
@@ -110,6 +125,7 @@ header {
     .kickstarter section a:hover {
       color: #f0f0d8; }
 
+/*Contact Section*/
 .contact {
   background: #604848; }
   .contact form {
@@ -137,18 +153,7 @@ header {
   .contact h2 {
     background: #c0d860; }
 
-header, .kickstarter, .contact {
-  height: 100%;
-  margin: 0 auto;
-  width: 100%;
-  min-width: 940px; }
-
-.kickstarter div {
-  margin: 20px;
-  display: inline-block; }
-.kickstarter h2 {
-  background: #604848; }
-
+/*Footer*/
 .footer-bg {
   background: #f0f0d8;
   box-shadow: 0 -5px 15px #f0f0d8; }
