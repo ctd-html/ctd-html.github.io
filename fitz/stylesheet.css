@@ -30,6 +30,10 @@ nav ul li {
 nav ul li:hover {
   color: white;
 }
+nav ul li a {
+  color: lightgrey;
+  text-decoration: none;
+}
 
 .thankyou {
   background-color: white;
@@ -42,23 +46,70 @@ nav ul li:hover {
   width: 100%;
 }
 
-.googleplus {
-  border-top: 1px solid black;
+.googlepluscontainer {
+  height: 100%;
   background: #1851CE;
 }
-.googleplus .googleplusthanks {
+.googlepluscontainer .googleplus {
+  margin: 0 30px;
+  border-top: 1px solid black;
+  background-color: #e5e5e5;
+}
+.googlepluscontainer .googleplus .googleplusthanks {
   width: 100%;
   background-color: white;
   padding-bottom: 30px;
 }
-.googleplus .googleplusthanks img {
+.googlepluscontainer .googleplus .googleplusthanks img {
   width: 100%;
 }
-.googleplus .googleplusbio {
+.googlepluscontainer .googleplus .googleplusbio {
   width: 100%;
 }
-.googleplus .googleplusbio img {
+.googlepluscontainer .googleplus .googleplusbio img {
   width: 100%;
+}
+.googlepluscontainer .googleplus .gpcontentcontainer {
+  margin: 30px auto;
+  width: 600px;
+  height: 500px;
+  position: relative;
+}
+.googlepluscontainer .googleplus .gpcontentcontainer h4 {
+  font-size: 14px;
+  line-height: 30px;
+}
+.googlepluscontainer .googleplus .gpcontentcontainer h5 {
+  font-size: 13px;
+  line-height: 30px;
+}
+.googlepluscontainer .googleplus .gpcontentcontainer .lessons, .googlepluscontainer .googleplus .gpcontentcontainer .bio {
+  border-radius: 3px;
+  background-color: white;
+  width: 250px;
+  height: 400px;
+  padding: 0 15px;
+}
+.googlepluscontainer .googleplus .gpcontentcontainer .plusfont {
+  font-size: 14px;
+  line-height: 20px;
+}
+.googlepluscontainer .googleplus .gpcontentcontainer .lessons ul {
+  margin-top: 15px;
+  list-style-type: none;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.googlepluscontainer .googleplus .gpcontentcontainer .lessons ul li {
+  font-size: 13px;
+}
+.googlepluscontainer .googleplus .gpcontentcontainer .bio {
+  width: 250px;
+  height: 320px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .search {
@@ -98,5 +149,53 @@ form fieldset {
 }
 
 .about {
-  background: blanchedalmond;
+  border-top: 1px solid black;
+  background: white;
+  height: 100%;
+  width: 100%;
+}
+.about .container {
+  height: 100%;
+  width: 100%;
+  vertical-align: top;
+  padding-bottom: 0;
+}
+.about .container .column {
+  width: 16%;
+  vertical-align: top;
+  display: inline-block;
+  height: 100%;
+  padding: 1.1%;
+  border-left: 1px solid black;
+  padding-bottom: 0;
+}
+.about .container .chris {
+  width: 10%;
+  background: #1851CE;
+}
+.about .container .chris h3 {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  margin-top: 80px;
+}
+.about .container .chrisimg {
+  background: #C61800;
+}
+.about .container .chrisdesc {
+  background: #FFCF00;
+}
+.about .container .ethandesc {
+  background: #1851CE;
+}
+.about .container .ethanimg {
+  background: #31B639;
+}
+.about .container .ethan {
+  width: 10%;
+  background: #C61800;
+}
+.about .container .ethan h3 {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  margin-top: 120px;
 }

@@ -30,6 +30,10 @@ nav {
             &:hover {
                 color: white;
             }
+            a {
+                color: lightgrey;
+                text-decoration: none;
+            }
         }
     }
 }
@@ -49,25 +53,77 @@ nav {
 
 // Section 2 - Google Plus
 
-.googleplus {
-    border-top: 1px solid black;
+.googlepluscontainer{
+    height: 100%;
     background: #1851CE;
-    .googleplusthanks {
-        width: 100%;
-        background-color: white;
-        padding-bottom: 30px;
-        img {
+
+    .googleplus {
+        margin: 0 30px;
+        border-top: 1px solid black;
+        background-color: rgb(229, 229, 229);
+        .googleplusthanks {
             width: 100%;
+            background-color: white;
+            padding-bottom: 30px;
+            img {
+                width: 100%;
+            }
         }
-    }
-    .googleplusbio {
-        width:100%;
-        img {
-            width: 100%
+        .googleplusbio {
+            width:100%;
+            img {
+                width: 100%
+            }
+        }
+        .gpcontentcontainer {
+            margin: 30px auto;
+            width: 600px;
+            height: 500px;
+            position: relative;
+                h4 {
+                    font-size: 14px;
+                    line-height: 30px;
+                }
+
+                h5 {
+                    font-size: 13px;
+                    line-height: 30px;
+                }
+
+                .lessons, .bio {
+                    border-radius: 3px;
+                    background-color: white;
+                    width: 250px;
+                    height: 400px;
+                    padding: 0 15px;
+                }
+                .plusfont{
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+                .lessons {
+
+                    ul {
+                        margin-top: 15px;
+                        list-style-type: none;
+                        padding-left: 25px;
+                        padding-right: 25px;
+                        li {
+                            font-size: 13px;
+                        }
+                    }
+                }
+                .bio {
+                    width: 250px;
+                    height: 320px;
+                    display: inline-block;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
         }
     }
 }
-
 // Section 3 - Search
 
 .search {
@@ -115,7 +171,54 @@ form {
 }
 
 // Section 8 - About
-
 .about {
-    background: blanchedalmond;
+    border-top: 1px solid black;
+    background: white;
+    height: 100%;
+    width: 100%;
+    .container {
+        height: 100%;
+        width: 100%;
+        vertical-align: top;
+        padding-bottom: 0;
+        .column {
+            width: 16%;
+            vertical-align: top;
+            display: inline-block;
+            height: 100%;
+            padding: 1.1%;
+            border-left: 1px solid black;
+            padding-bottom: 0;
+        }
+        .chris {
+            width: 10%;
+            background: #1851CE;
+            h3 {
+                transform: rotate(-90deg);
+                -webkit-transform: rotate(-90deg);
+                margin-top: 80px;
+            }
+        }
+        .chrisimg {
+            background: #C61800;
+        }
+        .chrisdesc {
+            background: #FFCF00;
+        }
+        .ethandesc {
+            background: #1851CE;
+        }
+        .ethanimg {
+            background: #31B639;
+        }
+        .ethan {
+            width: 10%;
+            background: #C61800;
+            h3 {
+                transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                margin-top: 120px;
+            }
+        }
+    }
 }
