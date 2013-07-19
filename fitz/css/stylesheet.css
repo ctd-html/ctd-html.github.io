@@ -159,54 +159,54 @@ nav ul li a {
                 font-weight: bold;
                 color: #12c;
                 line-height: 1.2em; }
-  .tysearchcontainer .imagescontainer {
+  .imagescontainer {
     background: #FFCF00;
     height: 100%;
     text-align: center;
     margin: auto; }
-    .tysearchcontainer .imagescontainer figure {
+  .imagescontainer figure {
       margin-bottom: 0;
       height: 1px; }
-    .tysearchcontainer .imagescontainer .images {
+.imagescontainer .images {
       margin: 0 30px; }
-    .tysearchcontainer .imagescontainer .imagesearch {
+.imagescontainer .imagesearch {
       width: 100%; }
-      .tysearchcontainer .imagescontainer .imagesearch img {
+ .imagescontainer .imagesearch img {
         width: 100%; }
-    .tysearchcontainer .imagescontainer .imagespage {
+ .imagescontainer .imagespage {
       background-color: white;
       height: 100%;
       padding: 0px;
       margin-top: 0; }
-    .tysearchcontainer .imagescontainer .labcoat, .tysearchcontainer .imagescontainer .brianhand, .tysearchcontainer .imagescontainer .brianclock {
+.imagescontainer .labcoat, .tysearchcontainer .imagescontainer .brianhand, .tysearchcontainer .imagescontainer .brianclock {
       display: inline-block; }
-    .tysearchcontainer .imagescontainer .labcoat img {
+ .imagescontainer .labcoat img {
       height: 150px; }
-    .tysearchcontainer .imagescontainer .brianhand img {
+.imagescontainer .brianhand img {
       height: 200px; }
-    .tysearchcontainer .imagescontainer .brianclock img {
+.imagescontainer .brianclock img {
       height: 150px; }
-  .tysearchcontainer .mapscontainer {
+ .mapscontainer {
     background: #1851CE;
     height: 100%; }
-    .tysearchcontainer .mapscontainer .maps {
+.mapscontainer .maps {
       margin: 0 30px; }
-  .tysearchcontainer .newscontainer {
+ .newscontainer {
     background: #31B639;
     height: 100%; }
-    .tysearchcontainer .newscontainer .news {
+ .newscontainer .news {
       margin: 0 30px; }
-  .tysearchcontainer .morecontainer {
+ .morecontainer {
     background-color: #C61800;
     border-bottom: 1px solid black;
     height: 100%; }
-    .tysearchcontainer .morecontainer .more {
+.morecontainer .more {
       margin: 0 30px;
       background: #C61800;
       border-bottom: 1px solid black; }
-    .tysearchcontainer .morecontainer form {
+ .morecontainer form {
       line-height: 1.5em; }
-      .tysearchcontainer .morecontainer form fieldset {
+.morecontainer form fieldset {
         padding-left: 20px;
         padding-bottom: 20px; }
   .about {
