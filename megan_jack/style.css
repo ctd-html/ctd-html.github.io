@@ -1,0 +1,228 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    min-width: 1000px;
+}
+html{
+    height: 100%
+}
+section{
+    height:100%;
+}
+.page1{
+    text-align: center;
+    padding: 0 15px 15px 15px;
+    background: #515151;
+}
+.page2{
+    background: #00b4ff;
+    position: relative;
+}
+.page3{
+    background: #515151;
+}
+.page4{
+    background: #00b4ff;
+}
+.page5{
+    background:#515151;
+    position: relative;
+}
+h1{
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 75px;
+    color: white;
+}
+.container-first{
+    display: inline-block;
+    text-align: center;
+    width:400px;
+}
+.title-jack img{
+    width:300px;
+}
+.container-first p{
+    margin-top:60px;
+    font-size: 28px;
+    color: white;
+}
+.container-second{
+    display: inline-block;
+    text-align: center;
+    width:400px;
+}
+.title-megan img{
+    width:300px;
+}
+.container-second p{
+    margin-bottom: 60px;
+    font-size: 28px;
+    color: white;
+}
+
+.links-megan{
+    position: absolute;
+    top:0;
+    left:0;
+    width:50%;
+    height:50%;
+    text-align: center;
+    border: 1px solid #515151;
+    font-size: 20px;
+}
+
+.links-jack{
+    position: absolute;
+    bottom:0;
+    right:0;
+    width:50%;
+    height:50%;
+    text-align: center;
+    border: 1px solid #515151;
+    font-size: 20px;
+}
+
+.links-megan ul, .links-jack ul{
+    list-style-type:none;
+}
+.links-megan ul li, .links-jack ul li{
+    margin-top: 20px;
+}
+
+.links-megan ul li a, .links-jack ul li a{
+    color: #EEEEEE;
+}
+
+.megan-text{
+    position: absolute;
+    top:0;
+    right:0;
+    width:50%;
+    height:50%;
+    text-align: center;
+    border: 1px solid #515151;
+    font-size: 20px;
+
+}
+
+.jack-text{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:50%;
+    height:50%;
+    text-align: center;
+    border: 1px solid #515151;
+    font-size: 20px;
+}
+.jack-text, .megan-text p{
+    text-align: left;
+    color: #dddddd;
+}
+
+.email-container {
+    padding-top: 100px;
+    height: 50%;
+    padding-left: 50px;
+}
+
+input, textarea, select, button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width:40%;
+}
+
+button {
+    width: 20%;
+    height: 30px;
+    background-color: #00b4ff;
+    color: white;
+}
+
+label{
+    margin:0 auto;
+    color: white;
+}
+
+.quotes{
+    padding-top: 15px;
+}
+
+.right-quote{
+    display: block;
+    text-align: right;
+    font-style: italic;
+    font-size: 20px;
+    color: #515151;
+    margin-right: 20px;
+}
+
+.left-quote{
+    display:block;
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+    color: #515151;
+    margin-bottom: 15%;
+    margin-left: 20px;
+}
+.middle-quotes{
+    height:19%;
+    width: 100%;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    color: #515151;
+}
+.quotes{
+    height:40%;
+    width: 100%;
+}
+.samir{
+    position: absolute;
+    top:0;
+    right:0;
+    width:50%;
+    height:50%;
+    text-align: center;
+    border-bottom: 1px solid #FFFFFF;
+    font-size: 24px;
+    color: white;
+}
+.aaron{
+    position: absolute;
+    bottom:0;
+    right:0;
+    width:50%;
+    height:50%;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.left-column{
+    position: absolute;
+    top:0;
+    left:0;
+    width:50%;
+    height:100%;
+    text-align: center;
+    border-right: 1px solid #FFFFFF;
+    font-size: 80px;
+    color: white;
+}
+.left-column p{
+    color: white;
+    padding-top: 50%;
+}
+.page5 a{
+    margin-top: 20px;
+    color: #00b4ff;
+}
