@@ -56,8 +56,10 @@ body, html {
 .gansenintroimgtext {
     float:right;
     /*clear:both;*/
-    margin-right: -165px;
-    padding-top: 110px;
+    /*margin-right: -165px;*/
+    /*padding-top: 110px;*/
+    margin-top: -20px;
+    margin-right: 35px;
 }
 
 .introduction img {
