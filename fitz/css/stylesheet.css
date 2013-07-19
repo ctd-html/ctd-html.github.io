@@ -89,7 +89,7 @@ nav ul li a {
 
 .tysearchcontainer {
   height: 100%;
-  background-color: white; }
+  background-color: red; }
   .tysearchcontainer .search {
     margin: 0 30px; }
     .tysearchcontainer .search .tysearch {
@@ -99,8 +99,8 @@ nav ul li a {
       .tysearchcontainer .search .tysearch img {
         width: 100%; }
     .tysearchcontainer .search .searchbigdiv {
-      margin-left: 10%;
-      margin-right: 90%;
+      padding-left: 10%;
+      padding-right: 90%;
       color: #222;
       display: block;
       font-size: 16px;
