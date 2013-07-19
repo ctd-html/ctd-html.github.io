@@ -1,0 +1,209 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,100,400);
+html {
+  height: 100%; }
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", Helvetica, arial, sans-serif;
+  font-weight: 300;
+  color: #fefdfd; }
+
+body {
+  background: url(bgimage.png) 0 0;
+  height: 100%; }
+
+.slide {
+  width: 100%;
+  min-height: 800px;
+  height: 100%;
+  text-align: center; }
+
+.container {
+  max-width: 800px;
+  display: inline-block; }
+
+h2 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 5%; }
+
+a {
+  color: #42383B;
+  text-decoration: none; 
+  transition: all .25s ease; }
+
+a:hover {
+  color: #12080B; }
+
+.title {
+  text-align: center;
+  background: #F0F0F0;
+  opacity: .85; }
+  .title h1 {
+    color: #010102;
+    z-index: 10;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 60px;
+    padding-top: 4%; }
+  .title a {
+    display: inline-block;
+    width: 80px;
+    padding-left: 40px;
+    padding-right: 40px; }
+  .title .pj {
+    display: block;
+    z-index: 0;
+    content: "";
+    margin: 5% auto 0;
+    width: 320px;
+    height: 320px;
+    border-radius: 320px;
+    background: #fafafa url(nickdisabato.png) no-repeat 0 0;
+    background-size: 100%; }
+  .title h3 {
+    color: #010102;
+    font-size: 40px;
+    padding-top: 5%; }
+
+.about {
+  text-align: center;
+  background: #111116;
+  opacity: .8; }
+  .about q {
+    text-align: left;
+    font-size: 16px;
+    float: right;
+    clear: right;
+    display: inline-block;
+    width: 300px;
+    margin: 1% 5px;
+    padding: .25% 20px; }
+    .about q:before {
+      content: ""; }
+    .about q:after {
+      content: ""; }
+    .about q em {
+      float: right; }
+  .about p {
+    font-size: 20px;
+    padding: 5px;
+    text-align: left;
+    width: 760px;
+    margin: 1% 10px;
+    line-height: 1.5; }
+
+.contact {
+  text-align: center;
+  background: #42383B;
+  opacity: .8; }
+  .contact form {
+    padding-top: 5%;
+    display: inline-block;
+    width: 460px;
+    text-align: center; }
+    .contact form label {
+      margin-left: 2%;
+      float: left; }
+    .contact form input {
+      vertical-align: middle;
+      display: inline-block;
+      margin: 2%;
+      border: none;
+      padding: 5px;
+      outline: none;
+      color: black; }
+      .contact form input[required] {
+        width: 100%; }
+    .contact form .discover {
+      margin-left: 2%;
+      text-align: left; }
+      .contact form .discover input:not(:nth-child(2)) {
+        margin-right: 2px;
+        margin-left: 20px; }
+      .contact form .discover input[type=text] {
+        margin-left: 5px; }
+    .contact form textarea {
+      margin: 2%;
+      width: 100%;
+      height: 125px;
+      border: none;
+      padding: 5px;
+      outline: none;
+      color: black; }
+    .contact form button {
+      color: #42383B;
+      cursor: pointer;
+      display: inline-block;
+      padding: 5px 20px;
+      background: #F0F0F0;
+      border: 2px solid #fefdfd;
+      border-radius: 10px;
+      outline: none; }
+    .contact form button:hover {
+      color: #22181B; }
+
+footer {
+  background-color: #dedede;
+  text-align: center; }
+  footer h2 {
+    color: #13212C;
+    padding-top: 2%; }
+  footer article {
+    display: block;
+    margin: 0 auto;
+    padding: 2%;
+    width: 75%; }
+    footer article p {
+      margin-top: 20px;
+      color: #13212C;
+      text-align: left; }
+    footer article h3 {
+      text-align: left;
+      position: relative;
+      color: #42383B;
+      padding-left: 80px;
+      padding-top: 5px; }
+    footer article h3:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 60px;
+      width: 60px;
+      border: 1px solid #13212C;
+      border-radius: 60px; }
+    footer article .grant:before {
+      background: url(grant.jpg) no-repeat 0 0;
+      background-size: 100%; }
+    footer article a {
+      margin-top: 20px;
+      padding: 5px 20px;
+      border: 2px solid #fefdfd;
+      border-radius: 10px;
+      background: #F0F0F0;
+      display: inline-block;
+      font-size: 12px; }
+
+@media screen and (max-width: 800px) {
+    .title a {
+        width: 10%;
+    }
+
+    .about q {
+        display: block;
+    }
+    .about p {
+        width: 90%;
+        margin: 200px 5% 0;
+    }
+
+    .contact form {
+        width: 80%;
+    }
+    .contact form .discover input:not(:nth-child(2)) {
+        margin-left: 5px;
+    }
+}
