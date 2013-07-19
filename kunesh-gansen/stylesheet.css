@@ -1,0 +1,230 @@
+/*GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    /*background-color: blue;*/
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.parameter {
+    height: 100%;
+    width:1024px;
+    margin:0 auto;
+    /*border:1px solid black;*/
+}
+
+.introduction, .description, .quotes, .forms, .contact {
+    min-height: 100%;
+    width:100%;
+}
+
+/*INTRODUCTION*/
+
+.introduction {
+    /*height: 100%;*/
+    /*width:100%;*/
+    background: url('../kunesh-gansen/img/tweed.png');
+    background-attachment: fixed;
+}
+
+.introduction h1 {
+    color:#dddddd;
+    display: block;
+    text-align: center;
+    font-family: 'Denk One', sans-serif;
+    font-size: 60px;
+    padding-top: 300px;
+}
+
+.introduction h3 {
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: bold;
+    color:#dddddd;
+}
+
+.kunesheintroimgtext {
+    display:inline-block;
+    padding-top: 110px;
+    margin-left: -160px;
+    clear:both;
+}
+
+.gansenintroimgtext {
+    float:right;
+    /*clear:both;*/
+    margin-right: -165px;
+    padding-top: 110px;
+}
+
+.introduction img {
+    height:200px;
+    margin-top: -100px;
+}
+
+.introduction .jason_kunesh_img {
+    float:left;
+}
+
+.introduction .chris_gansen_img {
+    float:right;
+}
+
+/*DESCRIPTION*/
+
+.description {
+    background-color: rgb(147,139,137);
+    /*background-attachment: fixed;*/
+}
+
+.speakerdescriptions {
+    height: 600px;
+    width:36%;
+    background-color: blanchedalmond;
+    margin-top: 90px;
+}
+
+.mainkuneshdesc {
+    float:left;
+}
+
+.maingansendesc {
+    float:right;
+}
+
+/*QUOTES*/
+
+.quotes {
+    background-color: rgb(229,128,34);
+}
+
+.quotes h2 {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Denk One', sans-serif;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.studentquotes {
+    background-color: rgba(0,0,0,0.3);
+    display:block;
+    margin-bottom: 30px;
+    height:70px;
+    width:600px;
+    border-radius: 20px;
+}
+
+.studenquotes blockquote {
+    margin-top: 5px;
+    margin-left: 20px;-
+}
+
+.leftquote {
+    float:left;
+}
+
+.rightquote {
+    float:right;
+}
+
+/*FORMS*/
+
+.forms {
+    background-color: rgb(186,109,53);
+    background-attachment: fixed;
+    border: 1px solid black;
+
+}
+
+.contact {
+    text-align: center;
+    background: #e9a353;
+    opacity: .8;
+}
+
+.contact form {
+    padding-top: 5%;
+    display: inline-block;
+    width: 460px;
+    text-align: center;
+}
+
+.contact form label {
+    margin-left: 2%;
+    float: left;
+}
+
+.contact form input {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 2%;
+    border: none;
+    padding: 5px;
+    outline: none;
+    color: black;
+}
+
+.contact form input[required] {
+    width: 100%;
+}
+
+.contact form .discover {
+    margin-left: 2%;
+    text-align: left;
+}
+
+.contact form .discover input:not(:nth-child(2)) {
+    margin-right: 2px;
+    margin-left: 20px;
+}
+
+.contact form .discover input[type=text] {
+    margin-left: 5px;
+}
+
+.contact form textarea {
+    margin: 2%;
+    width: 100%;
+    height: 25%;
+    border: none;
+    padding: 5px;
+    outline: none;
+    color: black;
+}
+
+.contact form button {
+    color: #e9a353;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 20px;
+    background: #44454F;
+    border: 2px solid #fefdfd;
+    border-radius: 10px;
+    outline: none;
+}
+
+.contact form button:hover {
+    color: #be7118;
+}
+
+.formtitle {
+    font-family: sans-serif;
+}
+
+.username, .email{
+    padding:0 30px 0 0;
+    display: block;
+}
+
+/*CONTACT*/
+
+.contact {
+    background-color: rgb(38,54,53);
+}
+
+/*FOOTER*/
