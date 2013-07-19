@@ -1,0 +1,247 @@
+/*Color Scheme */
+
+$darkgreen:#607848;
+$green:#789048;
+$lime:#C0D860;
+$white:#F0F0D8;
+$purple:#604848;
+
+/*General*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+        text-align: center;
+        height: 100%;
+        font-family: 'Karla', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    &:visited {
+        color: black
+    }
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'Bevan', cursive;
+    margin-bottom: 10px;
+    min-width: 940px;
+    text-shadow: 0 0 10px white ;
+    box-shadow: 0 2px 16px black;
+}
+
+h1 {
+    font-size: 50px;
+    color:$white;
+    font-family: 'Acme', sans-serif;
+}
+
+section {
+    width: 940px;
+    margin: 0 auto;
+}
+
+header , .kickstarter , .contact {
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 940px;
+}
+
+/*Head thank you */
+
+header {
+    background: linear-gradient(#789048,#607848);
+    img {
+        border-radius: 20px;
+        box-shadow: 3px 3px 10px black;
+    }
+    h2 {
+        background: $white;
+    }
+    blockquote , div {
+        width: 700px;
+        text-shadow: 0 0 10px white;
+        background: rgba(255,255,255,0.2);
+        padding: 5px 10px;
+        border-radius: 10px;
+        border: 2px outset $white;
+        margin: 0 auto;
+        font-size: 20px;
+        transition: all .6s;
+        -webkit-transition: all .6s;
+        &:hover {
+            background: $white;
+        }
+    }
+    h3 {
+        font-size: 26px;
+        padding: 10px;
+        color: $white;
+    }
+    q {
+        color:black;
+    }
+
+    p {
+        display: block;
+        color: $purple;
+        padding: 5px
+    }
+    a {
+        display: block;
+        width: 200px;
+        margin: 10px auto 0 auto;
+        background: $lime;
+        padding: 2px;
+        cursor: pointer;
+        border-radius: 50px;
+        border: 3px outset $lime;
+        &:hover {
+            border: 3px inset $lime;
+        }
+    }
+}
+
+/*Kick starter section*/
+
+.kickstarter {
+    background: $white;
+
+    h3 {
+        font-size: 30px;
+        color: $darkgreen;
+        margin: 20px;
+        transition:all .2s;
+        &:hover {
+            color: $lime;
+        }
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+    div {
+        margin: 20px;
+        display: inline-block;
+    }
+
+    h2 {
+        background: $purple;
+    }
+
+    section {
+        div {
+            float: left;
+            width: 29%;
+            margin:10px;
+            height: 270px;
+            background: linear-gradient($lime,#A3B851);
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 7px;
+        }
+        img {
+            border-radius: 10px;
+            transition: all .8s;
+            -webkit-transition: all .5s;
+            &:hover {
+                transform: scale(2,2);
+                -webkit-transform: scale(1.2,1.2);
+            }
+        }
+        a {
+            transition: all .5s;
+            -webkit-transition: all .2s;
+            color: $darkgreen;
+            cursor: pointer;
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+}
+
+/*Contact Section*/
+
+.contact {
+    background: $purple;
+    form {
+    width: 940px;
+    margin: 0 auto;
+
+        fieldset {
+        padding: 10px;
+        margin: 20px;
+        border:none;
+        }
+
+        input {
+            padding: 5px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+            padding:10px;
+            font-size: 16px;
+        }
+        legend {
+            font-size: 30px;
+            padding: 20px;
+        }
+        textarea {
+            padding: 10px;
+            margin: 20px;
+        }
+    }
+
+    h2 {
+        background: $lime;
+    }
+}
+
+/*Footer*/
+
+.footer-bg {
+    background: $white;
+    box-shadow: 0 -5px 15px $white;
+}
+footer {
+    max-width: 940px;
+    margin: 0 auto;
+    height: 90px;
+    h5 {
+        font-size: 16px;
+    }
+
+    div {
+        display: inline-block;
+        margin: 15px;
+        width: 250px;
+
+        img {
+            border-radius: 8px;
+            float: right;
+            margin: 5px;
+        }
+
+        h4 {
+            font-size: 20px;
+            padding: 5px;
+        }
+    }
+}
