@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Parisienne);
+
+* {
+	margin: 0;
+	padding: 0; 
+}
+
+body {
+	background: #490A3D;
+}
+
+h1 {
+	font-family: "Parisienne";
+	font-size: 72px;
+	text-align: center;
+	padding: 5% 0 1%;
+	color: #BD1550;
+}
+
+.images {
+	display: block;
+	margin: 2% 5%;
+	width: 90%;
+	text-align: center;
+}
+
+img {
+	display: inline-block;
+	width: 30%;
+	margin: 1%;
+	border: 3px solid #E97F02;
+}
+
+@media screen and (max-width: 800px) {
+	img {
+		width: 46%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	img {
+		width: 98%;
+	}
+}
