@@ -25,8 +25,6 @@ body, html {
 /*INTRODUCTION*/
 
 .introduction {
-    /*height: 100%;*/
-    /*width:100%;*/
     background: url('../kunesh-gansen/img/tweed.png');
     background-attachment: fixed;
 }
@@ -78,15 +76,30 @@ body, html {
 /*DESCRIPTION*/
 
 .description {
-    background-color: rgb(147,139,137);
-    /*background-attachment: fixed;*/
+    background:url('../kunesh-gansen/img/pw_pattern.png');
 }
 
 .speakerdescriptions {
     height: 600px;
     width:36%;
-    background-color: blanchedalmond;
+    background-color: rgba(0,0,0,0.5);
     margin-top: 90px;
+    border-radius: 5px;
+}
+
+.speakerdescriptions h2 {
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.speakerdescriptions p {
+    font-family: sans-serif;
+    width: 80%;
+    line-height: 1.7em;
+    text-align: center;
+    margin:0 auto;
 }
 
 .mainkuneshdesc {
@@ -100,7 +113,8 @@ body, html {
 /*QUOTES*/
 
 .quotes {
-    background-color: rgb(229,128,34);
+    background: url('../kunesh-gansen/img/binding_dark.png');
+    color:#d3d3d3;
 }
 
 .quotes h2 {
@@ -110,6 +124,16 @@ body, html {
     font-family: 'Denk One', sans-serif;
     font-size: 32px;
     margin-bottom: 40px;
+}
+
+blockquote {
+    position: relative;
+    top:7px;
+    left:5px;
+}
+
+.oneline {
+    top:15px;
 }
 
 .studentquotes {
@@ -122,9 +146,9 @@ body, html {
     font-family: sans-serif;
 }
 
-.studenquotes blockquote {
+.studentquotes blockquote {
     margin-top: 5px;
-    margin-left: 20px;-
+    margin-left: 20px;
 }
 
 .leftquote {
@@ -135,7 +159,7 @@ body, html {
     float:right;
 }
 
-/*FORMS*/
+/*CONTACT*/
 
 .forms {
     background-color: rgb(186,109,53);
@@ -145,9 +169,16 @@ body, html {
 }
 
 .contact {
+    background: url('../kunesh-gansen/img/retro_intro.png');
     text-align: center;
-    background: #e9a353;
     opacity: .8;
+    color:black;
+    font-family: sans-serif;
+    max-height: 100%;
+}
+
+.contact h2 {
+    padding-top: 80px;
 }
 
 .contact form {
@@ -200,6 +231,10 @@ body, html {
     color: black;
 }
 
+.contact .sendto {
+    text-align: left;
+}
+
 .contact form button {
     color: #e9a353;
     cursor: pointer;
@@ -211,23 +246,8 @@ body, html {
     outline: none;
 }
 
-.contact form button:hover {
-    color: #be7118;
-}
-
-.formtitle {
-    font-family: sans-serif;
-}
-
-.username, .email{
-    padding:0 30px 0 0;
-    display: block;
-}
-
-/*CONTACT*/
-
-.contact {
-    background-color: rgb(38,54,53);
+.radiomarginextra {
+    margin-left: 10px;
 }
 
 /*FOOTER*/
