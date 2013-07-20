@@ -115,6 +115,7 @@ body, html {
 .quotes {
     background: url('../kunesh-gansen/img/binding_dark.png');
     color:#d3d3d3;
+    height:105%;
 }
 
 .quotes h2 {
@@ -174,7 +175,7 @@ blockquote {
     opacity: .8;
     color:black;
     font-family: sans-serif;
-    max-height: 100%;
+    height: 80%;
 }
 
 .contact h2 {
@@ -186,6 +187,7 @@ blockquote {
     display: inline-block;
     width: 460px;
     text-align: center;
+    margin-bottom: -200px
 }
 
 .contact form label {
@@ -251,3 +253,75 @@ blockquote {
 }
 
 /*FOOTER*/
+
+footer {
+    width:100%;
+    height:60px;
+    position: absolute;
+    top:500%;
+    border:1px solid red;
+}
+
+.footercolor {
+    width:24.5%;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0 auto;
+    height:60px;
+}
+
+.night {
+    background-color: rgba(17,67,66, 0.7);
+    transition: 1s all ease-in;
+}
+
+.night:hover {
+    background-color: rgba(17,67,66,1.0);
+}
+
+.flamingoblue {
+    background-color: rgba(57,129,151,0.7);
+    transition: 1s all ease-in;
+}
+
+.flamingoblue:hover {
+    background-color:(57,129,151,1);
+}
+
+.easy {
+    background-color: rgba(8,235,200,0.7);
+    transition: 1s all ease-in;
+}
+
+.easy:hover {
+    background-color: rgba(8,235,200,1);
+}
+
+.bathing {
+    background-color: rgba(23,170,168,0.7);
+    transition: 1s all ease-in;
+}
+
+.bathing:hover {
+    background-color: rgba(23,170,168,1)
+}
+
+.yellows {
+    background-color: rgba(229,232,102,0.7);
+    transition: 1s all ease-in;
+}
+
+.yellows:hover {
+    background-color: rgba(229, 232, 102, 0.7);
+}
+
+.footercolor a {
+    height: 60px;
+    width: 24.5%;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color:rgb(0,0,255) !important;
+}
