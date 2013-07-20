@@ -125,51 +125,162 @@ nav {
     }
 }
 // Section 3 - Search
-
-.search {
-    background: #C61800;
-    .tysearch {
-        width: 100%;
-        background-color: white;
-        padding-bottom: 30px;
-        img {
+.tysearchcontainer {
+    height: 100%;
+    background-color: #C61800;
+    .search {
+        margin:0 30px;
+        .tysearch {
             width: 100%;
+            background-color: white;
+            padding-bottom: 30px;
+            img {
+                width: 100%;
+            }
+        }
+    .searchbigdiv {
+        margin-left: 10%;
+        color: #222;
+        display: block;
+        font-size: 16px;
+        font-weight: normal;
+        height: 80%;
+        padding-top: 6px;
+        width: 512px;
+        ol {
+            color: rgb(34,34,34);
+            display: block;
+            font-size: 16px;
+            font-weight: normal;
+            height: 80%;
+            list-style-type: decimal;
+            margin: 0;
+            padding: 0;
+            width: 512px;
+            li {
+                display: list-item;
+                font-size: 13px;
+                font-weight: normal;
+                height: 60px;
+                line-height: 15px;
+                list-style-image: none;
+                list-style-position: outside;
+                list-style-type: none;
+                margin-bottom: 23px;
+                padding: 0;
+                text-align: left;
+                width: 512px;
+                div {
+                    display: block;
+                    font-size: 13px;
+                    font-weight: normal;
+                    height: 60px;
+                    line-height: 15px;
+                    position: relative;
+                    width: 512px;
+                    h3 {
+                        display: block;
+                        font-size: 16px;
+                        height: 19px;
+                        font-weight: normal;
+                        margin: 0;
+                        overflow-x: hidden;
+                        overflow-y: hidden;
+                        padding: 0;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        a {
+                            display: inline;
+                            height: auto;
+                            width: auto;
+                            white-space: nowrap;
+                            font-size: 16px;
+                            font-weight: bold;
+                            color: #12c;
+                            line-height: 1.2em;
+                        }
+                    }
+                }
+            }
         }
     }
 }
 
 // Section 4 - Images
 
-.images {
+.imagescontainer{
     background: #FFCF00;
-}
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    figure {
+        margin-bottom: 0;
+        height: 1px;
+    }
+    .images {
+        margin: 0 30px;
+    }
+    .imagesearch {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+    .imagespage {
+        background-color: white;
+        height: 100%;
+        padding: 0px;
+        margin-top: 0;
 
-// Section 5 - Maps
-
-.maps {
-    background: #1851CE;
-}
-
-// Section 6 - News
-
-.news {
-    background: #31B639;
-}
-
-// Section 7 - More
-
-.more {
-    background: #C61800;
-}
-
-form {
-    line-height: 1.5em;
-    fieldset {
-        padding-left: 20px;
-        padding-bottom: 20px;
+    }
+    .labcoat, .brianhand, .brianclock {
+        display: inline-block;
+    }
+    .labcoat img{
+        height: 150px;
+    }
+    .brianhand img{
+        height: 200px;
+    }
+    .brianclock img{
+        height: 150px;
     }
 }
+// Section 5 - Maps
+.mapscontainer {
+    background: #1851CE;
+    height: 100%;
+    .maps {
+        margin: 0 30px;
+    }
+}
+// Section 6 - News
+.newscontainer {
+    background: #31B639;
+    height: 100%;
+    .news {
+        margin: 0 30px;
+    }
+}
+// Section 7 - More
+.morecontainer {
+    background-color: #C61800;
+    border-bottom: 1px solid black;
+    height: 100%;
+    .more {
+        margin: 0 30px;
+        background: #C61800;
+        border-bottom: 1px solid black;
 
+    }
+    form {
+        line-height: 1.5em;
+        fieldset {
+            padding-left: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
 // Section 8 - About
 .about {
     border-top: 1px solid black;
@@ -221,4 +332,5 @@ form {
             }
         }
     }
+}
 }

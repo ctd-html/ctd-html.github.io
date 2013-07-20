@@ -1,0 +1,327 @@
+/*GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    /*background-color: blue;*/
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.parameter {
+    height: 100%;
+    width:1024px;
+    margin:0 auto;
+    /*border:1px solid black;*/
+}
+
+.introduction, .description, .quotes, .forms, .contact {
+    min-height: 100%;
+    width:100%;
+}
+
+/*INTRODUCTION*/
+
+.introduction {
+    background: url('../kunesh-gansen/img/tweed.png');
+    background-attachment: fixed;
+}
+
+.introduction h1 {
+    color:#dddddd;
+    display: block;
+    text-align: center;
+    font-family: 'Denk One', sans-serif;
+    font-size: 60px;
+    padding-top: 300px;
+}
+
+.introduction h3 {
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: bold;
+    color:#dddddd;
+}
+
+.kunesheintroimgtext {
+    display:inline-block;
+    padding-top: 110px;
+    margin-left: -160px;
+    clear:both;
+}
+
+.gansenintroimgtext {
+    float:right;
+    /*clear:both;*/
+    /*margin-right: -165px;*/
+    /*padding-top: 110px;*/
+    margin-top: -20px;
+    margin-right: 35px;
+}
+
+.introduction img {
+    height:200px;
+    margin-top: -100px;
+}
+
+.introduction .jason_kunesh_img {
+    float:left;
+}
+
+.introduction .chris_gansen_img {
+    float:right;
+}
+
+/*DESCRIPTION*/
+
+.description {
+    background:url('../kunesh-gansen/img/pw_pattern.png');
+}
+
+.speakerdescriptions {
+    height: 600px;
+    width:36%;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 90px;
+    border-radius: 5px;
+}
+
+.speakerdescriptions h2 {
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.speakerdescriptions p {
+    font-family: sans-serif;
+    width: 80%;
+    line-height: 1.7em;
+    text-align: center;
+    margin:0 auto;
+}
+
+.mainkuneshdesc {
+    float:left;
+}
+
+.maingansendesc {
+    float:right;
+}
+
+/*QUOTES*/
+
+.quotes {
+    background: url('../kunesh-gansen/img/binding_dark.png');
+    color:#d3d3d3;
+    height:105%;
+}
+
+.quotes h2 {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Denk One', sans-serif;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+blockquote {
+    position: relative;
+    top:7px;
+    left:5px;
+}
+
+.oneline {
+    top:15px;
+}
+
+.studentquotes {
+    background-color: rgba(0,0,0,0.3);
+    display:block;
+    margin-bottom: 30px;
+    height:70px;
+    width:600px;
+    border-radius: 20px;
+    font-family: sans-serif;
+}
+
+.studentquotes blockquote {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.leftquote {
+    float:left;
+}
+
+.rightquote {
+    float:right;
+}
+
+/*CONTACT*/
+
+.forms {
+    background-color: rgb(186,109,53);
+    background-attachment: fixed;
+    border: 1px solid black;
+
+}
+
+.contact {
+    background: url('../kunesh-gansen/img/retro_intro.png');
+    text-align: center;
+    opacity: .8;
+    color:black;
+    font-family: sans-serif;
+    height: 80%;
+}
+
+.contact h2 {
+    padding-top: 80px;
+}
+
+.contact form {
+    padding-top: 5%;
+    display: inline-block;
+    width: 460px;
+    text-align: center;
+    margin-bottom: -200px
+}
+
+.contact form label {
+    margin-left: 2%;
+    float: left;
+}
+
+.contact form input {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 2%;
+    border: none;
+    padding: 5px;
+    outline: none;
+    color: black;
+}
+
+.contact form input[required] {
+    width: 100%;
+}
+
+.contact form .discover {
+    margin-left: 2%;
+    text-align: left;
+}
+
+.contact form .discover input:not(:nth-child(2)) {
+    margin-right: 2px;
+    margin-left: 20px;
+}
+
+.contact form .discover input[type=text] {
+    margin-left: 5px;
+}
+
+.contact form textarea {
+    margin: 2%;
+    width: 100%;
+    height: 25%;
+    border: none;
+    padding: 5px;
+    outline: none;
+    color: black;
+}
+
+.contact .sendto {
+    text-align: left;
+}
+
+.contact form button {
+    color: #e9a353;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 20px;
+    background: #44454F;
+    border: 2px solid #fefdfd;
+    border-radius: 10px;
+    outline: none;
+}
+
+.radiomarginextra {
+    margin-left: 10px;
+}
+
+/*FOOTER*/
+
+footer {
+    width:100%;
+    height:60px;
+    position: absolute;
+    top:500%;
+    border:1px solid red;
+}
+
+.footercolor {
+    width:24.5%;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0 auto;
+    height:60px;
+}
+
+.night {
+    background-color: rgba(17,67,66, 0.7);
+    transition: 1s all ease-in;
+}
+
+.night:hover {
+    background-color: rgba(17,67,66,1.0);
+}
+
+.flamingoblue {
+    background-color: rgba(57,129,151,0.7);
+    transition: 1s all ease-in;
+}
+
+.flamingoblue:hover {
+    background-color:(57,129,151,1);
+}
+
+.easy {
+    background-color: rgba(8,235,200,0.7);
+    transition: 1s all ease-in;
+}
+
+.easy:hover {
+    background-color: rgba(8,235,200,1);
+}
+
+.bathing {
+    background-color: rgba(23,170,168,0.7);
+    transition: 1s all ease-in;
+}
+
+.bathing:hover {
+    background-color: rgba(23,170,168,1)
+}
+
+.yellows {
+    background-color: rgba(229,232,102,0.7);
+    transition: 1s all ease-in;
+}
+
+.yellows:hover {
+    background-color: rgba(229, 232, 102, 0.7);
+}
+
+.footercolor a {
+    height: 60px;
+    width: 24.5%;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color:rgb(0,0,255) !important;
+}
