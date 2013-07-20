@@ -324,7 +324,7 @@
       "inputAbbreviatedPath" : "\/fitz\/stylesheet.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/stylesheet.css",
+      "outputAbbreviatedPath" : "\/fitz\/stylesheet.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -518,7 +518,7 @@
     },
     "\/PJMacklin\/styles.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/PJMacklin\/styles.css",
@@ -715,15 +715,6 @@
       "initialSize" : 9169,
       "fileType" : 8192
     },
-    "\/fitz\/stylesheet.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fitz\/stylesheet.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/ChrisMcAvoy\/chrismcavoy.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -841,16 +832,16 @@
       "initialSize" : 14703,
       "fileType" : 4096
     },
-    "\/NateKontny\/grant.jpg" : {
+    "\/kunishgansen.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/NateKontny\/grant.jpg",
+      "inputAbbreviatedPath" : "\/kunishgansen.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/NateKontny\/grant.jpg",
-      "initialSize" : 67148,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/kunishgansen.png",
+      "initialSize" : 2069785,
+      "fileType" : 8192
     },
     "\/Max+Greg\/maxsface.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -863,16 +854,16 @@
       "initialSize" : 190819,
       "fileType" : 4096
     },
-    "\/kunishgansen.png" : {
+    "\/NateKontny\/grant.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/kunishgansen.png",
+      "inputAbbreviatedPath" : "\/NateKontny\/grant.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/kunishgansen.png",
-      "initialSize" : 2069785,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/NateKontny\/grant.jpg",
+      "initialSize" : 67148,
+      "fileType" : 4096
     },
     "\/styles.css" : {
       "ignoreWasSetByUser" : 0,
@@ -891,7 +882,7 @@
       "inputAbbreviatedPath" : "\/PJMacklin\/styles.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/styles.css",
+      "outputAbbreviatedPath" : "\/PJMacklin\/styles.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -989,7 +980,7 @@
       "inputAbbreviatedPath" : "\/CharlesAdler\/style.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/style.css",
+      "outputAbbreviatedPath" : "\/CharlesAdler\/style.css",
       "fileType" : 4,
       "debugStyle" : 0
     }
@@ -1009,7 +1000,7 @@
     "hamlOutputFormat" : 2,
     "stylusAutoOutputPathReplace1" : "stylus",
     "lessStrictImports" : 0,
-    "sassAutoOutputPathStyle" : 2,
+    "sassAutoOutputPathStyle" : 0,
     "stylusAutoOutputPathReplace2" : "css",
     "lessAutoOutputPathStyle" : 0,
     "lessIECompatibility" : 1,
