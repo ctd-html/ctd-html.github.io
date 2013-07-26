@@ -1,4 +1,4 @@
-# Requirements
+# Content requirements
 
 - "thank you"
 - picture
@@ -11,6 +11,8 @@
 - contact the person (A FORM)
 - quotes from the class
 - footer about the two of you
+
+# Layout requirements
 
 - full-page slides - diff bg image on each slide
 - google font
