@@ -21,9 +21,12 @@ nav {
       display: inline-block;
       width: 65px;
       font-weight: bold; }
-      nav ul li:hover {
+      nav ul li a:hover {
         color: white; }
-
+nav ul li a {
+                color: lightgrey;
+                text-decoration: none;
+            }
 .thankyou {
   background-color: white; }
   .thankyou .mainsearch {
@@ -86,7 +89,7 @@ nav {
 
 .tysearchcontainer {
   height: 100%;
-  background-color: #C61800; }
+  background-color: red; }
   .tysearchcontainer .search {
     margin: 0 30px; }
     .tysearchcontainer .search .tysearch {
@@ -96,7 +99,8 @@ nav {
       .tysearchcontainer .search .tysearch img {
         width: 100%; }
     .tysearchcontainer .search .searchbigdiv {
-      margin-left: 10%;
+      padding-left: 10%;
+      padding-right: 90%;
       color: #222;
       display: block;
       font-size: 16px;
@@ -155,92 +159,105 @@ nav {
                 font-weight: bold;
                 color: #12c;
                 line-height: 1.2em; }
-  .tysearchcontainer .imagescontainer {
+  .imagescontainer {
     background: #FFCF00;
     height: 100%;
     text-align: center;
     margin: auto; }
-    .tysearchcontainer .imagescontainer figure {
+  .imagescontainer figure {
       margin-bottom: 0;
+      width: 100%;
       height: 1px; }
-    .tysearchcontainer .imagescontainer .images {
+.imagescontainer .images {
       margin: 0 30px; }
-    .tysearchcontainer .imagescontainer .imagesearch {
+.imagescontainer .imagesearch {
       width: 100%; }
-      .tysearchcontainer .imagescontainer .imagesearch img {
+ .imagescontainer .imagesearch img {
         width: 100%; }
-    .tysearchcontainer .imagescontainer .imagespage {
+ .imagescontainer .imagespage {
       background-color: white;
       height: 100%;
       padding: 0px;
       margin-top: 0; }
-    .tysearchcontainer .imagescontainer .labcoat, .tysearchcontainer .imagescontainer .brianhand, .tysearchcontainer .imagescontainer .brianclock {
+.imagescontainer .labcoat, .tysearchcontainer .imagescontainer .brianhand, .tysearchcontainer .imagescontainer .brianclock {
       display: inline-block; }
-    .tysearchcontainer .imagescontainer .labcoat img {
+ .imagescontainer .labcoat img {
       height: 150px; }
-    .tysearchcontainer .imagescontainer .brianhand img {
+.imagescontainer .brianhand img {
       height: 200px; }
-    .tysearchcontainer .imagescontainer .brianclock img {
+.imagescontainer .brianclock img {
       height: 150px; }
-  .tysearchcontainer .mapscontainer {
+ .mapscontainer {
     background: #1851CE;
     height: 100%; }
-    .tysearchcontainer .mapscontainer .maps {
+.mapscontainer .maps {
       margin: 0 30px; }
-  .tysearchcontainer .newscontainer {
+ .newscontainer {
     background: #31B639;
     height: 100%; }
-    .tysearchcontainer .newscontainer .news {
+ .newscontainer .news {
       margin: 0 30px; }
-  .tysearchcontainer .morecontainer {
+ .morecontainer {
     background-color: #C61800;
     border-bottom: 1px solid black;
     height: 100%; }
-    .tysearchcontainer .morecontainer .more {
+.morecontainer .more {
       margin: 0 30px;
       background: #C61800;
       border-bottom: 1px solid black; }
-    .tysearchcontainer .morecontainer form {
+ .morecontainer form {
       line-height: 1.5em; }
-      .tysearchcontainer .morecontainer form fieldset {
+.morecontainer form fieldset {
         padding-left: 20px;
         padding-bottom: 20px; }
-  .tysearchcontainer .about {
-    background: white;
-    height: 100%;
-    width: 100%; }
-    .tysearchcontainer .about .container {
-      height: 100%;
-      width: 100%;
-      vertical-align: top;
-      padding-bottom: 0; }
-      .tysearchcontainer .about .container .column {
-        width: 16%;
-        vertical-align: top;
-        display: inline-block;
-        height: 100%;
-        padding: 1.1%;
-        border-left: 1px solid black;
-        padding-bottom: 0; }
-      .tysearchcontainer .about .container .chris {
-        width: 10%;
-        background: #1851CE; }
-        .tysearchcontainer .about .container .chris h3 {
-          transform: rotate(-90deg);
-          -webkit-transform: rotate(-90deg);
-          margin-top: 80px; }
-      .tysearchcontainer .about .container .chrisimg {
-        background: #C61800; }
-      .tysearchcontainer .about .container .chrisdesc {
-        background: #FFCF00; }
-      .tysearchcontainer .about .container .ethandesc {
-        background: #1851CE; }
-      .tysearchcontainer .about .container .ethanimg {
-        background: #31B639; }
-      .tysearchcontainer .about .container .ethan {
-        width: 10%;
-        background: #C61800; }
-        .tysearchcontainer .about .container .ethan h3 {
-          transform: rotate(90deg);
-          -webkit-transform: rotate(90deg);
-          margin-top: 120px; }
+  .about {
+  border-top: 1px solid black;
+  background: white;
+  height: 100%;
+  width: 100%;
+}
+.about .container {
+  height: 100%;
+  width: 100%;
+  vertical-align: top;
+  padding-bottom: 0;
+}
+.about .container .column {
+  width: 16%;
+  vertical-align: top;
+  display: inline-block;
+  height: 100%;
+  padding: 1.1%;
+  border-left: 1px solid black;
+  padding-bottom: 0;
+}
+.about .container .chris {
+  width: 10%;
+  background: #1851CE;
+}
+.about .container .chris h3 {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  margin-top: 80px;
+}
+.about .container .chrisimg {
+  background: #C61800;
+}
+.about .container .chrisdesc {
+  background: #FFCF00;
+}
+.about .container .ethandesc {
+  background: #1851CE;
+}
+.about .container .ethanimg {
+  background: #31B639;
+}
+.about .container .ethan {
+  width: 10%;
+  background: #C61800;
+}
+.about .container .ethan h3 {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  margin-top: 120px;
+}
