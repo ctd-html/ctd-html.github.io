@@ -1,44 +1,268 @@
-@import url(http://fonts.googleapis.com/css?family=Parisienne);
+/* GENERAL */
 
 * {
+	padding: 0;
 	margin: 0;
-	padding: 0; 
+	font-family: "Roboto", Helvetica, sans-serif;
+	color: #56565E;
+}
+
+*::selection {
+	background-color: #FF7B7B;
+	opacity: .1;
 }
 
 body {
-	background: #490A3D;
+	background: #26ADE4;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h2 {
+	color: #DF4B4B;
+}
+
+
+/* HEADER */
+
+header {
+	margin: 0 auto 40px;
+	max-width: 720px;
+}
+
+hr {
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	outline: none;
+	border: 1px solid #DF4B4B;
 }
 
 h1 {
-	font-family: "Parisienne";
-	font-size: 72px;
+	font-family: "Scada", Helvetica, sans-serif;
+	font-style: italic;
 	text-align: center;
-	padding: 5% 0 1%;
-	color: #BD1550;
+	padding: 30px 10px;
+	font-size: 48px;
+	color: #D5D5D5;
 }
 
-.images {
-	display: block;
-	margin: 2% 5%;
-	width: 90%;
+header p {
+	font-size: 18px;
+	padding: 10px;
+	margin: 0 auto;
+	line-height: 1.25;
+	text-align: justify;
+	background: #4DBCE9;
+}
+
+/* TEACHERS */
+
+.teachers {
+	max-width: 720px;
+	margin: 0 auto 40px;
 	text-align: center;
 }
 
-img {
+.teachers h2 {
+	text-align: center;
+	margin-bottom: 10px; 
+}
+
+.teachers article {
+	width: 320px;
+	padding: 9px;
+	margin: 9px;
 	display: inline-block;
-	width: 30%;
-	margin: 1%;
-	border: 3px solid #E97F02;
+	vertical-align: top;
+	background: #4DBCE9;
+	text-align: left;
 }
 
-@media screen and (max-width: 800px) {
-	img {
-		width: 46%;
+.teachers h3 {
+	padding-top: 20px;
+	padding-left: 80px; 
+	position: relative;
+}
+
+.teachers h3:before {
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 60px;
+	height: 60px;
+	border: 1px solid #FF6B6B;
+	border-radius: 40px;
+}
+
+.teachers .sandor:before {
+	background: #FF6B6B url(sandor.jpg) no-repeat 0px 0px;
+	background-size: 100%;
+}
+
+.teachers .arjun:before {
+	background: #FF6B6B url(arjun.jpg) no-repeat 0px 0px;
+	background-size: 100%;
+}
+
+.teachers p {
+	padding: 35px 10px;
+	font-size: 17px;
+	line-height: 1.25;
+}
+
+.teachers p small {
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+/* SPEAKERS */
+
+.speakers {
+	margin: 0 auto 40px;
+	max-width: 720px;
+	text-align: center;
+}
+
+.speakers h2 {
+	margin-bottom: 10px;
+}
+
+.speakers article {
+	vertical-align: top;
+	display: inline-block;
+	width: 200px;
+	padding: 20px 9px 50px;
+	margin: 20px 9px;
+	position: relative;
+	height: 190px;
+	background: #4DBCE9;
+}
+
+.speakers .icon {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border: 1px solid #FF6B6B;
+	border-radius: 40px;
+	margin: 0 5px;
+}
+
+.adler {
+	background: #FF6B6B url(CharlesAdler/charles-adler.jpg) no-repeat -14px -10px;
+	background-size: 150%;
+}
+
+.mcavoy {
+	background: white url(ChrisMcAvoy/chrismcavoy.jpg) no-repeat 8px -2px;
+	background-size: 100%;
+}
+
+.fitz {
+	background: #FF6B6B url(fitz/img/briangplus.jpg) no-repeat 0px 0px;
+	background-size: 100%;
+}
+
+.germuska {
+	background: #FF6B6B url(JoeG/joegermuska_1326082085_7.jpg) no-repeat -60px -12px;
+	background-size: 300%;
+}
+
+.gansen {
+	background: #FF6B6B url(kunesh-gansen/img/chris_gansen_img.jpg) no-repeat 0px 0px;
+	background-size: 100%;
+}
+
+.kunesh {
+	background: #FF6B6B url(kunesh-gansen/img/jason_kunesh_img.jpg) no-repeat 0px 0px;
+	background-size: 100%;
+}
+
+.temkin {
+	background: #FF6B6B url(Max+Greg/maxsface.jpg) no-repeat -5px -35px;
+	background-size: 225%;
+}
+
+.wohlwend {
+	background: #FF6B6B url(Max+Greg/gregsface.jpg) no-repeat 0px 0px;
+	background-size: 100%;
+}
+
+.coleman {
+	background: rgb(44,60,44) url(Megan+Jack/img/Megan.jpg) no-repeat 3px 0px;
+	background-size: 90%;
+}
+
+.auses {
+	background: #FF6B6B url(Megan+Jack/img/Jack.jpg) no-repeat 0px 0px;
+	background-size: 100%;
+}
+
+.kontny {
+	background: #FF6B6B url(NateKontny/natekontny.png) no-repeat 0px 0px;
+	background-size: 100%;
+}
+
+.disabato {
+	background: #FF6B6B url(NickDisabato/nickdisabato.png) no-repeat 0px 0px;
+	background-size: 100%;
+}
+
+.macklin {
+	background: #FF6B6B url(PJMacklin/pjmacklinpic.png) no-repeat 0px 0px;
+	background-size: 100%;
+}
+
+.speakers h3 {
+	padding-top: 10px;
+}
+
+.speakers h4 {
+	font-weight: normal;
+}
+
+.speakers a {
+	color: white;
+	font-size: 15px;
+	position: relative;
+	top: 30px;
+	padding: 5px 15px;
+	border-radius: 10px;
+	background: #DF4B4B;
+	transition: all .2s ease-in;
+}
+
+.speakers a:hover {
+	background: #FF6B6B; 
+}
+
+@media screen and (max-width: 750px) {
+	header p {
+		width: 90%;
+	}
+
+	.teachers {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.teachers article {
+		width: 90%;
+	}
+
+	.speakers article {
+		width: 42%;
 	}
 }
 
-@media screen and (max-width: 450px) {
-	img {
-		width: 98%;
+@media screen and (max-width: 475px) {
+	.speakers article {
+		width: 90%;
 	}
 }

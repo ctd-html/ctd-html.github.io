@@ -25,8 +25,6 @@ body, html {
 /*INTRODUCTION*/
 
 .introduction {
-    /*height: 100%;*/
-    /*width:100%;*/
     background: url('../kunesh-gansen/img/tweed.png');
     background-attachment: fixed;
 }
@@ -56,8 +54,10 @@ body, html {
 .gansenintroimgtext {
     float:right;
     /*clear:both;*/
-    margin-right: -165px;
-    padding-top: 110px;
+    /*margin-right: -165px;*/
+    /*padding-top: 110px;*/
+    margin-top: -20px;
+    margin-right: 35px;
 }
 
 .introduction img {
@@ -76,15 +76,30 @@ body, html {
 /*DESCRIPTION*/
 
 .description {
-    background-color: rgb(147,139,137);
-    /*background-attachment: fixed;*/
+    background:url('../kunesh-gansen/img/pw_pattern.png');
 }
 
 .speakerdescriptions {
     height: 600px;
     width:36%;
-    background-color: blanchedalmond;
+    background-color: rgba(0,0,0,0.5);
     margin-top: 90px;
+    border-radius: 5px;
+}
+
+.speakerdescriptions h2 {
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.speakerdescriptions p {
+    font-family: sans-serif;
+    width: 80%;
+    line-height: 1.7em;
+    text-align: center;
+    margin:0 auto;
 }
 
 .mainkuneshdesc {
@@ -98,7 +113,9 @@ body, html {
 /*QUOTES*/
 
 .quotes {
-    background-color: rgb(229,128,34);
+    background: url('../kunesh-gansen/img/binding_dark.png');
+    color:#d3d3d3;
+    height:105%;
 }
 
 .quotes h2 {
@@ -110,6 +127,16 @@ body, html {
     margin-bottom: 40px;
 }
 
+blockquote {
+    position: relative;
+    top:7px;
+    left:5px;
+}
+
+.oneline {
+    top:15px;
+}
+
 .studentquotes {
     background-color: rgba(0,0,0,0.3);
     display:block;
@@ -117,11 +144,12 @@ body, html {
     height:70px;
     width:600px;
     border-radius: 20px;
+    font-family: sans-serif;
 }
 
-.studenquotes blockquote {
+.studentquotes blockquote {
     margin-top: 5px;
-    margin-left: 20px;-
+    margin-left: 20px;
 }
 
 .leftquote {
@@ -132,7 +160,7 @@ body, html {
     float:right;
 }
 
-/*FORMS*/
+/*CONTACT*/
 
 .forms {
     background-color: rgb(186,109,53);
@@ -142,9 +170,16 @@ body, html {
 }
 
 .contact {
+    background: url('../kunesh-gansen/img/retro_intro.png');
     text-align: center;
-    background: #e9a353;
     opacity: .8;
+    color:black;
+    font-family: sans-serif;
+    height: 80%;
+}
+
+.contact h2 {
+    padding-top: 80px;
 }
 
 .contact form {
@@ -152,6 +187,7 @@ body, html {
     display: inline-block;
     width: 460px;
     text-align: center;
+    margin-bottom: -200px
 }
 
 .contact form label {
@@ -197,6 +233,10 @@ body, html {
     color: black;
 }
 
+.contact .sendto {
+    text-align: left;
+}
+
 .contact form button {
     color: #e9a353;
     cursor: pointer;
@@ -208,23 +248,80 @@ body, html {
     outline: none;
 }
 
-.contact form button:hover {
-    color: #be7118;
-}
-
-.formtitle {
-    font-family: sans-serif;
-}
-
-.username, .email{
-    padding:0 30px 0 0;
-    display: block;
-}
-
-/*CONTACT*/
-
-.contact {
-    background-color: rgb(38,54,53);
+.radiomarginextra {
+    margin-left: 10px;
 }
 
 /*FOOTER*/
+
+footer {
+    width:100%;
+    height:60px;
+    position: absolute;
+    top:500%;
+    border:1px solid red;
+}
+
+.footercolor {
+    width:24.5%;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0 auto;
+    height:60px;
+}
+
+.night {
+    background-color: rgba(17,67,66, 0.7);
+    transition: 1s all ease-in;
+}
+
+.night:hover {
+    background-color: rgba(17,67,66,1.0);
+}
+
+.flamingoblue {
+    background-color: rgba(57,129,151,0.7);
+    transition: 1s all ease-in;
+}
+
+.flamingoblue:hover {
+    background-color:(57,129,151,1);
+}
+
+.easy {
+    background-color: rgba(8,235,200,0.7);
+    transition: 1s all ease-in;
+}
+
+.easy:hover {
+    background-color: rgba(8,235,200,1);
+}
+
+.bathing {
+    background-color: rgba(23,170,168,0.7);
+    transition: 1s all ease-in;
+}
+
+.bathing:hover {
+    background-color: rgba(23,170,168,1)
+}
+
+.yellows {
+    background-color: rgba(229,232,102,0.7);
+    transition: 1s all ease-in;
+}
+
+.yellows:hover {
+    background-color: rgba(229, 232, 102, 0.7);
+}
+
+.footercolor a {
+    height: 60px;
+    width: 24.5%;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color:rgb(0,0,255) !important;
+}
