@@ -23,7 +23,10 @@ nav ul li a {  color: lightgrey;  text-decoration: none;}
 .googlepluscontainer .googleplus .gpcontentcontainer .lessons ul {  margin-top: 15px;  list-style-type: none;  padding-left: 25px;  padding-right: 25px;}
 .googlepluscontainer .googleplus .gpcontentcontainer .lessons ul li {  font-size: 13px;}
 .googlepluscontainer .googleplus .gpcontentcontainer .bio {  width: 250px;  height: 320px;  display: inline-block;  position: absolute;  right: 0;  top: 0;}
-.search {  background: #C61800;}
+.search {
+    /*background: #C61800;*/
+    background: white;
+}
 .search .tysearch {
     width: 100%;
     background-color: white;
@@ -33,7 +36,7 @@ nav ul li a {  color: lightgrey;  text-decoration: none;}
     width: 100%; 
   }
 .search .searchbigdiv {
-    margin-left: 140px;
+    margin-left: 10%px;
     color: #222;
     display: block;
     font-size: 16px;
