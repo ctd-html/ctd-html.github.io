@@ -36,7 +36,7 @@ nav ul li a {  color: lightgrey;  text-decoration: none;}
     width: 100%; 
   }
 .search .searchbigdiv {
-    margin-left: 10%px;
+    margin-left: 10%;
     color: #222;
     display: block;
     font-size: 16px;
