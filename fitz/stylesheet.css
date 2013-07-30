@@ -105,7 +105,16 @@ nav ul li a {  color: lightgrey;  text-decoration: none;}
     width: 100%;
 }
 .images {  background: #FFCF00;}
-.maps {  background: #1851CE;}
+.maps {
+    background: #1851CE;
+}
+.maps figure {
+    height: 500px;
+    width: 500px;
+}
+.maps figure img {
+    width: 500px;
+}
 .news {  background: #31B639;}
 .more {  background: #C61800;}
 form {  line-height: 1.5em;}
